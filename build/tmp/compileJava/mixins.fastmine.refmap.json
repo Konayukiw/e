@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "com/anonymous/e/mixin/IAccessorPlayerControllerMP": {
+      "curBlockDamageMP": "field_78770_f:F",
+      "blockHitDelay": "field_78781_i:I"
+    }
+  },
+  "data": {
+    "notch": {
+      "com/anonymous/e/mixin/IAccessorPlayerControllerMP": {
+        "curBlockDamageMP": "e:F",
+        "blockHitDelay": "g:I"
+      }
+    },
+    "searge": {
+      "com/anonymous/e/mixin/IAccessorPlayerControllerMP": {
+        "curBlockDamageMP": "field_78770_f:F",
+        "blockHitDelay": "field_78781_i:I"
+      }
+    }
+  }
+}

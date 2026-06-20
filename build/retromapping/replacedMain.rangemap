@@ -1,0 +1,1004 @@
+Symbol range map extraction starting
+Processing 9 files
+processing com\anonymous\e\BlockUtils.java
+@|com\anonymous\e\BlockUtils.java|8|23|com.anonymous.e|package|com.anonymous.e|(file)
+Class Start: com.anonymous.e.BlockUtils
+   @|com\anonymous\e\BlockUtils.java|369|378|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\anonymous\e\BlockUtils.java|379|381|mc|field|com.anonymous.e.BlockUtils|mc|
+   @|com\anonymous\e\BlockUtils.java|384|393|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\anonymous\e\BlockUtils.java|394|406|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   Method Start: getBlockHardness(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F
+      @|com\anonymous\e\BlockUtils.java|435|451|getBlockHardness|method|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F
+      @|com\anonymous\e\BlockUtils.java|452|457|Block|class|net.minecraft.block.Block
+      @|com\anonymous\e\BlockUtils.java|458|463|block|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|block|0
+      @|com\anonymous\e\BlockUtils.java|465|474|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\anonymous\e\BlockUtils.java|475|484|itemStack|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|itemStack|1
+      @|com\anonymous\e\BlockUtils.java|494|504|ignoreSlow|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|ignoreSlow|2
+      @|com\anonymous\e\BlockUtils.java|514|526|ignoreGround|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|ignoreGround|3
+      @|com\anonymous\e\BlockUtils.java|555|560|block|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|block|0
+      @|com\anonymous\e\BlockUtils.java|561|577|getBlockHardness|method|net.minecraft.block.Block|getBlockHardness|(Lnet/minecraft/world/World;Lnet/minecraft/util/BlockPos;)F
+      @|com\anonymous\e\BlockUtils.java|578|580|mc|field|com.anonymous.e.BlockUtils|mc
+      @|com\anonymous\e\BlockUtils.java|581|589|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|com\anonymous\e\BlockUtils.java|694|699|block|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|block|0
+      @|com\anonymous\e\BlockUtils.java|700|711|getMaterial|method|net.minecraft.block.Block|getMaterial|()Lnet/minecraft/block/material/Material;
+      @|com\anonymous\e\BlockUtils.java|714|731|isToolNotRequired|method|net.minecraft.block.material.Material|isToolNotRequired|()Z
+      @|com\anonymous\e\BlockUtils.java|754|763|itemStack|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|itemStack|1
+      @|com\anonymous\e\BlockUtils.java|775|784|itemStack|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|itemStack|1
+      @|com\anonymous\e\BlockUtils.java|785|800|canHarvestBlock|method|net.minecraft.item.ItemStack|canHarvestBlock|(Lnet/minecraft/block/Block;)Z
+      @|com\anonymous\e\BlockUtils.java|801|806|block|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|block|0
+      @|com\anonymous\e\BlockUtils.java|838|858|getToolDigEfficiency|method|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F
+      @|com\anonymous\e\BlockUtils.java|859|868|itemStack|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|itemStack|1
+      @|com\anonymous\e\BlockUtils.java|870|875|block|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|block|0
+      @|com\anonymous\e\BlockUtils.java|877|887|ignoreSlow|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|ignoreSlow|2
+      @|com\anonymous\e\BlockUtils.java|889|901|ignoreGround|param|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F|ignoreGround|3
+   Method End: getBlockHardness(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F
+   Method Start: getToolDigEfficiency(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F
+      @|com\anonymous\e\BlockUtils.java|1061|1081|getToolDigEfficiency|method|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F
+      @|com\anonymous\e\BlockUtils.java|1082|1091|ItemStack|class|net.minecraft.item.ItemStack
+      @|com\anonymous\e\BlockUtils.java|1092|1101|itemStack|param|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F|itemStack|0
+      @|com\anonymous\e\BlockUtils.java|1103|1108|Block|class|net.minecraft.block.Block
+      @|com\anonymous\e\BlockUtils.java|1109|1114|block|param|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F|block|1
+      @|com\anonymous\e\BlockUtils.java|1124|1134|ignoreSlow|param|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F|ignoreSlow|2
+      @|com\anonymous\e\BlockUtils.java|1144|1156|ignoreGround|param|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F|ignoreGround|3
+      @|com\anonymous\e\BlockUtils.java|1179|1188|itemStack|param|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F|itemStack|0
+      @|com\anonymous\e\BlockUtils.java|1207|1216|itemStack|param|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F|itemStack|0
+      @|com\anonymous\e\BlockUtils.java|1217|1224|getItem|method|net.minecraft.item.ItemStack|getItem|()Lnet/minecraft/item/Item;
+      @|com\anonymous\e\BlockUtils.java|1227|1240|getStrVsBlock|method|net.minecraft.item.Item|getStrVsBlock|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;)F
+      @|com\anonymous\e\BlockUtils.java|1241|1250|itemStack|param|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F|itemStack|0
+      @|com\anonymous\e\BlockUtils.java|1252|1257|block|param|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F|block|1
+      @|com\anonymous\e\BlockUtils.java|1312|1329|EnchantmentHelper|class|net.minecraft.enchantment.EnchantmentHelper
+      @|com\anonymous\e\BlockUtils.java|1330|1349|getEnchantmentLevel|method|net.minecraft.enchantment.EnchantmentHelper|getEnchantmentLevel|(ILnet/minecraft/item/ItemStack;)I
+      @|com\anonymous\e\BlockUtils.java|1350|1361|Enchantment|class|net.minecraft.enchantment.Enchantment
+      @|com\anonymous\e\BlockUtils.java|1362|1372|efficiency|field|net.minecraft.enchantment.Enchantment|efficiency
+      @|com\anonymous\e\BlockUtils.java|1373|1381|effectId|field|net.minecraft.enchantment.Enchantment|effectId
+      @|com\anonymous\e\BlockUtils.java|1383|1392|itemStack|param|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F|itemStack|0
+      @|com\anonymous\e\BlockUtils.java|1427|1436|itemStack|param|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F|itemStack|0
+      @|com\anonymous\e\BlockUtils.java|1541|1543|mc|field|com.anonymous.e.BlockUtils|mc
+      @|com\anonymous\e\BlockUtils.java|1544|1553|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\anonymous\e\BlockUtils.java|1554|1568|isPotionActive|method|net.minecraft.entity.EntityLivingBase|isPotionActive|(Lnet/minecraft/potion/Potion;)Z
+      @|com\anonymous\e\BlockUtils.java|1569|1575|Potion|class|net.minecraft.potion.Potion
+      @|com\anonymous\e\BlockUtils.java|1576|1584|digSpeed|field|net.minecraft.potion.Potion|digSpeed
+      @|com\anonymous\e\BlockUtils.java|1622|1624|mc|field|com.anonymous.e.BlockUtils|mc
+      @|com\anonymous\e\BlockUtils.java|1625|1634|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\anonymous\e\BlockUtils.java|1635|1656|getActivePotionEffect|method|net.minecraft.entity.EntityLivingBase|getActivePotionEffect|(Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/PotionEffect;
+      @|com\anonymous\e\BlockUtils.java|1657|1663|Potion|class|net.minecraft.potion.Potion
+      @|com\anonymous\e\BlockUtils.java|1664|1672|digSpeed|field|net.minecraft.potion.Potion|digSpeed
+      @|com\anonymous\e\BlockUtils.java|1674|1686|getAmplifier|method|net.minecraft.potion.PotionEffect|getAmplifier|()I
+      @|com\anonymous\e\BlockUtils.java|1726|1736|ignoreSlow|param|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F|ignoreSlow|2
+      @|com\anonymous\e\BlockUtils.java|1756|1758|mc|field|com.anonymous.e.BlockUtils|mc
+      @|com\anonymous\e\BlockUtils.java|1759|1768|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\anonymous\e\BlockUtils.java|1769|1783|isPotionActive|method|net.minecraft.entity.EntityLivingBase|isPotionActive|(Lnet/minecraft/potion/Potion;)Z
+      @|com\anonymous\e\BlockUtils.java|1784|1790|Potion|class|net.minecraft.potion.Potion
+      @|com\anonymous\e\BlockUtils.java|1791|1802|digSlowdown|field|net.minecraft.potion.Potion|digSlowdown
+      @|com\anonymous\e\BlockUtils.java|1863|1865|mc|field|com.anonymous.e.BlockUtils|mc
+      @|com\anonymous\e\BlockUtils.java|1866|1875|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\anonymous\e\BlockUtils.java|1876|1897|getActivePotionEffect|method|net.minecraft.entity.EntityLivingBase|getActivePotionEffect|(Lnet/minecraft/potion/Potion;)Lnet/minecraft/potion/PotionEffect;
+      @|com\anonymous\e\BlockUtils.java|1898|1904|Potion|class|net.minecraft.potion.Potion
+      @|com\anonymous\e\BlockUtils.java|1905|1916|digSlowdown|field|net.minecraft.potion.Potion|digSlowdown
+      @|com\anonymous\e\BlockUtils.java|1918|1930|getAmplifier|method|net.minecraft.potion.PotionEffect|getAmplifier|()I
+      @|com\anonymous\e\BlockUtils.java|2244|2246|mc|field|com.anonymous.e.BlockUtils|mc
+      @|com\anonymous\e\BlockUtils.java|2247|2256|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\anonymous\e\BlockUtils.java|2257|2275|isInsideOfMaterial|method|net.minecraft.entity.Entity|isInsideOfMaterial|(Lnet/minecraft/block/material/Material;)Z
+      @|com\anonymous\e\BlockUtils.java|2276|2284|Material|class|net.minecraft.block.material.Material
+      @|com\anonymous\e\BlockUtils.java|2285|2290|water|field|net.minecraft.block.material.Material|water
+      @|com\anonymous\e\BlockUtils.java|2316|2333|EnchantmentHelper|class|net.minecraft.enchantment.EnchantmentHelper
+      @|com\anonymous\e\BlockUtils.java|2334|2357|getAquaAffinityModifier|method|net.minecraft.enchantment.EnchantmentHelper|getAquaAffinityModifier|(Lnet/minecraft/entity/EntityLivingBase;)Z
+      @|com\anonymous\e\BlockUtils.java|2358|2360|mc|field|com.anonymous.e.BlockUtils|mc
+      @|com\anonymous\e\BlockUtils.java|2361|2370|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\anonymous\e\BlockUtils.java|2434|2436|mc|field|com.anonymous.e.BlockUtils|mc
+      @|com\anonymous\e\BlockUtils.java|2437|2446|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\anonymous\e\BlockUtils.java|2447|2455|onGround|field|net.minecraft.entity.Entity|onGround
+      @|com\anonymous\e\BlockUtils.java|2460|2472|ignoreGround|param|com.anonymous.e.BlockUtils|getToolDigEfficiency|(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F|ignoreGround|3
+   Method End: getToolDigEfficiency(Lnet/minecraft/item/ItemStack;Lnet/minecraft/block/Block;ZZ)F
+   Method Start: nullCheck()Z
+      @|com\anonymous\e\BlockUtils.java|2579|2588|nullCheck|method|com.anonymous.e.BlockUtils|nullCheck|()Z
+      @|com\anonymous\e\BlockUtils.java|2608|2610|mc|field|com.anonymous.e.BlockUtils|mc
+      @|com\anonymous\e\BlockUtils.java|2611|2620|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\anonymous\e\BlockUtils.java|2632|2634|mc|field|com.anonymous.e.BlockUtils|mc
+      @|com\anonymous\e\BlockUtils.java|2635|2643|theWorld|field|net.minecraft.client.Minecraft|theWorld
+   Method End: nullCheck()Z
+Class End  : com.anonymous.e.BlockUtils
+endProcessing com\anonymous\e\BlockUtils.java
+
+processing com\anonymous\e\ConfigUtils.java
+@|com\anonymous\e\ConfigUtils.java|8|23|com.anonymous.e|package|com.anonymous.e|(file)
+Class Start: com.anonymous.e.ConfigUtils
+   @|com\anonymous\e\ConfigUtils.java|355|359|Gson|class|com.google.gson.Gson
+   @|com\anonymous\e\ConfigUtils.java|360|364|GSON|field|com.anonymous.e.ConfigUtils|GSON|
+   @|com\anonymous\e\ConfigUtils.java|371|382|GsonBuilder|class|com.google.gson.GsonBuilder
+   @|com\anonymous\e\ConfigUtils.java|385|402|setPrettyPrinting|method|com.google.gson.GsonBuilder|setPrettyPrinting|()Lcom/google/gson/GsonBuilder;
+   @|com\anonymous\e\ConfigUtils.java|405|411|create|method|com.google.gson.GsonBuilder|create|()Lcom/google/gson/Gson;
+   @|com\anonymous\e\ConfigUtils.java|440|446|String|class|java.lang.String
+   @|com\anonymous\e\ConfigUtils.java|447|456|FILE_NAME|field|com.anonymous.e.ConfigUtils|FILE_NAME|
+   @|com\anonymous\e\ConfigUtils.java|489|493|File|class|java.io.File
+   @|com\anonymous\e\ConfigUtils.java|494|504|configFile|field|com.anonymous.e.ConfigUtils|configFile|
+   Method Start: ConfigUtils()V
+      @|com\anonymous\e\ConfigUtils.java|518|529|ConfigUtils|method|com.anonymous.e.ConfigUtils|ConfigUtils|()V
+      @|com\anonymous\e\ConfigUtils.java|542|546|File|class|java.io.File
+      @|com\anonymous\e\ConfigUtils.java|563|567|File|class|java.io.File
+      @|com\anonymous\e\ConfigUtils.java|568|577|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\anonymous\e\ConfigUtils.java|578|590|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\anonymous\e\ConfigUtils.java|593|602|mcDataDir|field|net.minecraft.client.Minecraft|mcDataDir
+      @|com\anonymous\e\ConfigUtils.java|638|644|exists|method|java.io.File|exists|()Z
+      @|com\anonymous\e\ConfigUtils.java|658|664|mkdirs|method|java.io.File|mkdirs|()Z
+      @|com\anonymous\e\ConfigUtils.java|681|691|configFile|field|com.anonymous.e.ConfigUtils|configFile
+      @|com\anonymous\e\ConfigUtils.java|698|702|File|class|java.io.File
+      @|com\anonymous\e\ConfigUtils.java|714|723|FILE_NAME|field|com.anonymous.e.ConfigUtils|FILE_NAME
+   Method End: ConfigUtils()V
+   Method Start: load(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\ConfigUtils.java|749|753|load|method|com.anonymous.e.ConfigUtils|load|(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\ConfigUtils.java|754|762|Fastmine|class|com.anonymous.e.module.Fastmine
+      @|com\anonymous\e\ConfigUtils.java|763|765|fm|param|com.anonymous.e.ConfigUtils|load|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|782|792|configFile|field|com.anonymous.e.ConfigUtils|configFile
+      @|com\anonymous\e\ConfigUtils.java|793|799|exists|method|java.io.File|exists|()Z
+      @|com\anonymous\e\ConfigUtils.java|817|821|save|method|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\ConfigUtils.java|822|824|fm|param|com.anonymous.e.ConfigUtils|load|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|870|876|Reader|class|java.io.Reader
+      @|com\anonymous\e\ConfigUtils.java|890|907|InputStreamReader|class|java.io.InputStreamReader
+      @|com\anonymous\e\ConfigUtils.java|912|927|FileInputStream|class|java.io.FileInputStream
+      @|com\anonymous\e\ConfigUtils.java|928|938|configFile|field|com.anonymous.e.ConfigUtils|configFile
+      @|com\anonymous\e\ConfigUtils.java|941|957|StandardCharsets|class|java.nio.charset.StandardCharsets
+      @|com\anonymous\e\ConfigUtils.java|958|963|UTF_8|field|java.nio.charset.StandardCharsets|UTF_8
+      @|com\anonymous\e\ConfigUtils.java|980|990|JsonObject|class|com.google.gson.JsonObject
+      @|com\anonymous\e\ConfigUtils.java|1001|1011|JsonParser|class|com.google.gson.JsonParser
+      @|com\anonymous\e\ConfigUtils.java|1014|1019|parse|method|com.google.gson.JsonParser|parse|(Ljava/io/Reader;)Lcom/google/gson/JsonElement;
+      @|com\anonymous\e\ConfigUtils.java|1028|1043|getAsJsonObject|method|com.google.gson.JsonElement|getAsJsonObject|()Lcom/google/gson/JsonObject;
+      @|com\anonymous\e\ConfigUtils.java|1068|1071|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|com\anonymous\e\ConfigUtils.java|1092|1102|setEnabled|method|com.anonymous.e.ConfigUtils|setEnabled|(Lcom/anonymous/e/module/Fastmine;Z)V
+      @|com\anonymous\e\ConfigUtils.java|1103|1105|fm|param|com.anonymous.e.ConfigUtils|load|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|1111|1114|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|com\anonymous\e\ConfigUtils.java|1126|1138|getAsBoolean|method|com.google.gson.JsonElement|getAsBoolean|()Z
+      @|com\anonymous\e\ConfigUtils.java|1163|1166|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|com\anonymous\e\ConfigUtils.java|1187|1189|fm|param|com.anonymous.e.ConfigUtils|load|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|1190|1195|delay|field|com.anonymous.e.module.Fastmine|delay
+      @|com\anonymous\e\ConfigUtils.java|1196|1204|setValue|method|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D
+      @|com\anonymous\e\ConfigUtils.java|1209|1212|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|com\anonymous\e\ConfigUtils.java|1222|1233|getAsDouble|method|com.google.gson.JsonElement|getAsDouble|()D
+      @|com\anonymous\e\ConfigUtils.java|1258|1261|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|com\anonymous\e\ConfigUtils.java|1282|1284|fm|param|com.anonymous.e.ConfigUtils|load|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|1285|1295|multiplier|field|com.anonymous.e.module.Fastmine|multiplier
+      @|com\anonymous\e\ConfigUtils.java|1296|1304|setValue|method|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D
+      @|com\anonymous\e\ConfigUtils.java|1309|1312|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|com\anonymous\e\ConfigUtils.java|1327|1338|getAsDouble|method|com.google.gson.JsonElement|getAsDouble|()D
+      @|com\anonymous\e\ConfigUtils.java|1363|1366|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|com\anonymous\e\ConfigUtils.java|1387|1389|fm|param|com.anonymous.e.ConfigUtils|load|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|1390|1394|mode|field|com.anonymous.e.module.Fastmine|mode
+      @|com\anonymous\e\ConfigUtils.java|1395|1403|setValue|method|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D
+      @|com\anonymous\e\ConfigUtils.java|1408|1411|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|com\anonymous\e\ConfigUtils.java|1420|1431|getAsDouble|method|com.google.gson.JsonElement|getAsDouble|()D
+      @|com\anonymous\e\ConfigUtils.java|1456|1459|has|method|com.google.gson.JsonObject|has|(Ljava/lang/String;)Z
+      @|com\anonymous\e\ConfigUtils.java|1480|1482|fm|param|com.anonymous.e.ConfigUtils|load|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|1483|1498|creativeDisable|field|com.anonymous.e.module.Fastmine|creativeDisable
+      @|com\anonymous\e\ConfigUtils.java|1499|1509|setEnabled|method|com.anonymous.e.module.setting.impl.ButtonSetting|setEnabled|(Z)V
+      @|com\anonymous\e\ConfigUtils.java|1514|1517|get|method|com.google.gson.JsonObject|get|(Ljava/lang/String;)Lcom/google/gson/JsonElement;
+      @|com\anonymous\e\ConfigUtils.java|1537|1549|getAsBoolean|method|com.google.gson.JsonElement|getAsBoolean|()Z
+      @|com\anonymous\e\ConfigUtils.java|1572|1581|Exception|class|java.lang.Exception
+      @|com\anonymous\e\ConfigUtils.java|1599|1605|System|class|java.lang.System
+      @|com\anonymous\e\ConfigUtils.java|1606|1609|err|field|java.lang.System|err
+      @|com\anonymous\e\ConfigUtils.java|1610|1617|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\ConfigUtils.java|1652|1662|getMessage|method|java.lang.Throwable|getMessage|()Ljava/lang/String;
+   Method End: load(Lcom/anonymous/e/module/Fastmine;)V
+   Method Start: save(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\ConfigUtils.java|1700|1704|save|method|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\ConfigUtils.java|1705|1713|Fastmine|class|com.anonymous.e.module.Fastmine
+      @|com\anonymous\e\ConfigUtils.java|1714|1716|fm|param|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|1728|1738|JsonObject|class|com.google.gson.JsonObject
+      @|com\anonymous\e\ConfigUtils.java|1749|1759|JsonObject|class|com.google.gson.JsonObject
+      @|com\anonymous\e\ConfigUtils.java|1775|1786|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/Boolean;)V
+      @|com\anonymous\e\ConfigUtils.java|1806|1808|fm|param|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|1809|1818|isEnabled|method|com.anonymous.e.module.Fastmine|isEnabled|()Z
+      @|com\anonymous\e\ConfigUtils.java|1835|1846|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/Number;)V
+      @|com\anonymous\e\ConfigUtils.java|1866|1868|fm|param|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|1869|1874|delay|field|com.anonymous.e.module.Fastmine|delay
+      @|com\anonymous\e\ConfigUtils.java|1875|1883|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\ConfigUtils.java|1900|1911|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/Number;)V
+      @|com\anonymous\e\ConfigUtils.java|1931|1933|fm|param|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|1934|1944|multiplier|field|com.anonymous.e.module.Fastmine|multiplier
+      @|com\anonymous\e\ConfigUtils.java|1945|1953|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\ConfigUtils.java|1970|1981|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/Number;)V
+      @|com\anonymous\e\ConfigUtils.java|2007|2009|fm|param|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|2010|2014|mode|field|com.anonymous.e.module.Fastmine|mode
+      @|com\anonymous\e\ConfigUtils.java|2015|2023|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\ConfigUtils.java|2040|2051|addProperty|method|com.google.gson.JsonObject|addProperty|(Ljava/lang/String;Ljava/lang/Boolean;)V
+      @|com\anonymous\e\ConfigUtils.java|2071|2073|fm|param|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|2074|2089|creativeDisable|field|com.anonymous.e.module.Fastmine|creativeDisable
+      @|com\anonymous\e\ConfigUtils.java|2090|2099|isToggled|method|com.anonymous.e.module.setting.impl.ButtonSetting|isToggled|()Z
+      @|com\anonymous\e\ConfigUtils.java|2118|2124|Writer|class|java.io.Writer
+      @|com\anonymous\e\ConfigUtils.java|2138|2156|OutputStreamWriter|class|java.io.OutputStreamWriter
+      @|com\anonymous\e\ConfigUtils.java|2161|2177|FileOutputStream|class|java.io.FileOutputStream
+      @|com\anonymous\e\ConfigUtils.java|2178|2188|configFile|field|com.anonymous.e.ConfigUtils|configFile
+      @|com\anonymous\e\ConfigUtils.java|2191|2207|StandardCharsets|class|java.nio.charset.StandardCharsets
+      @|com\anonymous\e\ConfigUtils.java|2208|2213|UTF_8|field|java.nio.charset.StandardCharsets|UTF_8
+      @|com\anonymous\e\ConfigUtils.java|2230|2234|GSON|field|com.anonymous.e.ConfigUtils|GSON
+      @|com\anonymous\e\ConfigUtils.java|2235|2241|toJson|method|com.google.gson.Gson|toJson|(Lcom/google/gson/JsonElement;Ljava/lang/Appendable;)V
+      @|com\anonymous\e\ConfigUtils.java|2273|2282|Exception|class|java.lang.Exception
+      @|com\anonymous\e\ConfigUtils.java|2300|2306|System|class|java.lang.System
+      @|com\anonymous\e\ConfigUtils.java|2307|2310|err|field|java.lang.System|err
+      @|com\anonymous\e\ConfigUtils.java|2311|2318|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\ConfigUtils.java|2353|2363|getMessage|method|java.lang.Throwable|getMessage|()Ljava/lang/String;
+   Method End: save(Lcom/anonymous/e/module/Fastmine;)V
+   Method Start: setEnabled(Lcom/anonymous/e/module/Fastmine;Z)V
+      @|com\anonymous\e\ConfigUtils.java|2402|2412|setEnabled|method|com.anonymous.e.ConfigUtils|setEnabled|(Lcom/anonymous/e/module/Fastmine;Z)V
+      @|com\anonymous\e\ConfigUtils.java|2413|2421|Fastmine|class|com.anonymous.e.module.Fastmine
+      @|com\anonymous\e\ConfigUtils.java|2422|2424|fm|param|com.anonymous.e.ConfigUtils|setEnabled|(Lcom/anonymous/e/module/Fastmine;Z)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|2434|2441|enabled|param|com.anonymous.e.ConfigUtils|setEnabled|(Lcom/anonymous/e/module/Fastmine;Z)V|enabled|1
+      @|com\anonymous\e\ConfigUtils.java|2457|2464|enabled|param|com.anonymous.e.ConfigUtils|setEnabled|(Lcom/anonymous/e/module/Fastmine;Z)V|enabled|1
+      @|com\anonymous\e\ConfigUtils.java|2469|2471|fm|param|com.anonymous.e.ConfigUtils|setEnabled|(Lcom/anonymous/e/module/Fastmine;Z)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|2472|2481|isEnabled|method|com.anonymous.e.module.Fastmine|isEnabled|()Z
+      @|com\anonymous\e\ConfigUtils.java|2486|2488|fm|param|com.anonymous.e.ConfigUtils|setEnabled|(Lcom/anonymous/e/module/Fastmine;Z)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|2489|2495|enable|method|com.anonymous.e.module.Fastmine|enable|()V
+      @|com\anonymous\e\ConfigUtils.java|2512|2519|enabled|param|com.anonymous.e.ConfigUtils|setEnabled|(Lcom/anonymous/e/module/Fastmine;Z)V|enabled|1
+      @|com\anonymous\e\ConfigUtils.java|2523|2525|fm|param|com.anonymous.e.ConfigUtils|setEnabled|(Lcom/anonymous/e/module/Fastmine;Z)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|2526|2535|isEnabled|method|com.anonymous.e.module.Fastmine|isEnabled|()Z
+      @|com\anonymous\e\ConfigUtils.java|2540|2542|fm|param|com.anonymous.e.ConfigUtils|setEnabled|(Lcom/anonymous/e/module/Fastmine;Z)V|fm|0
+      @|com\anonymous\e\ConfigUtils.java|2543|2550|disable|method|com.anonymous.e.module.Fastmine|disable|()V
+   Method End: setEnabled(Lcom/anonymous/e/module/Fastmine;Z)V
+Class End  : com.anonymous.e.ConfigUtils
+endProcessing com\anonymous\e\ConfigUtils.java
+
+processing com\anonymous\e\ICommand.java
+@|com\anonymous\e\ICommand.java|8|23|com.anonymous.e|package|com.anonymous.e|(file)
+Class Start: com.anonymous.e.ICommand
+   @|com\anonymous\e\ICommand.java|370|376|String|class|java.lang.String
+   @|com\anonymous\e\ICommand.java|377|383|PREFIX|field|com.anonymous.e.ICommand|PREFIX|
+   @|com\anonymous\e\ICommand.java|419|427|Fastmine|class|com.anonymous.e.module.Fastmine
+   @|com\anonymous\e\ICommand.java|428|430|fm|field|com.anonymous.e.ICommand|fm|
+   @|com\anonymous\e\ICommand.java|450|461|ConfigUtils|class|com.anonymous.e.ConfigUtils
+   @|com\anonymous\e\ICommand.java|462|465|cfg|field|com.anonymous.e.ICommand|cfg|
+   Method Start: ICommand(Lcom/anonymous/e/module/Fastmine;Lcom/anonymous/e/ConfigUtils;)V
+      @|com\anonymous\e\ICommand.java|479|487|ICommand|method|com.anonymous.e.ICommand|ICommand|(Lcom/anonymous/e/module/Fastmine;Lcom/anonymous/e/ConfigUtils;)V
+      @|com\anonymous\e\ICommand.java|488|496|Fastmine|class|com.anonymous.e.module.Fastmine
+      @|com\anonymous\e\ICommand.java|497|499|fm|param|com.anonymous.e.ICommand|ICommand|(Lcom/anonymous/e/module/Fastmine;Lcom/anonymous/e/ConfigUtils;)V|fm|0
+      @|com\anonymous\e\ICommand.java|501|512|ConfigUtils|class|com.anonymous.e.ConfigUtils
+      @|com\anonymous\e\ICommand.java|513|516|cfg|param|com.anonymous.e.ICommand|ICommand|(Lcom/anonymous/e/module/Fastmine;Lcom/anonymous/e/ConfigUtils;)V|cfg|1
+      @|com\anonymous\e\ICommand.java|533|535|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|539|541|fm|param|com.anonymous.e.ICommand|ICommand|(Lcom/anonymous/e/module/Fastmine;Lcom/anonymous/e/ConfigUtils;)V|fm|0
+      @|com\anonymous\e\ICommand.java|556|559|cfg|field|com.anonymous.e.ICommand|cfg
+      @|com\anonymous\e\ICommand.java|562|565|cfg|param|com.anonymous.e.ICommand|ICommand|(Lcom/anonymous/e/module/Fastmine;Lcom/anonymous/e/ConfigUtils;)V|cfg|1
+   Method End: ICommand(Lcom/anonymous/e/module/Fastmine;Lcom/anonymous/e/ConfigUtils;)V
+   Method Start: getCommandName()Ljava/lang/String;
+      @|com\anonymous\e\ICommand.java|606|620|getCommandName|method|net.minecraft.command.ICommand|getCommandName|()Ljava/lang/String;
+      @|com\anonymous\e\ICommand.java|599|605|String|class|java.lang.String
+   Method End: getCommandName()Ljava/lang/String;
+   Method Start: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\anonymous\e\ICommand.java|685|700|getCommandUsage|method|net.minecraft.command.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+      @|com\anonymous\e\ICommand.java|678|684|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|701|715|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\anonymous\e\ICommand.java|716|722|sender|param|com.anonymous.e.ICommand|getCommandUsage|(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;|sender|0
+   Method End: getCommandUsage(Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;
+   Method Start: getCommandAliases()Ljava/util/List;
+      @|com\anonymous\e\ICommand.java|816|833|getCommandAliases|method|net.minecraft.command.ICommand|getCommandAliases|()Ljava/util/List;
+      @|com\anonymous\e\ICommand.java|808|814|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|803|807|List|class|java.util.List
+      @|com\anonymous\e\ICommand.java|853|864|Collections|class|java.util.Collections
+      @|com\anonymous\e\ICommand.java|865|878|singletonList|method|java.util.Collections|singletonList|(Ljava/lang/Object;)Ljava/util/List;
+   Method End: getCommandAliases()Ljava/util/List;
+   Method Start: canCommandSenderUseCommand(Lnet/minecraft/command/ICommandSender;)Z
+      @|com\anonymous\e\ICommand.java|926|952|canCommandSenderUseCommand|method|net.minecraft.command.ICommand|canCommandSenderUseCommand|(Lnet/minecraft/command/ICommandSender;)Z
+      @|com\anonymous\e\ICommand.java|953|967|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\anonymous\e\ICommand.java|968|974|sender|param|com.anonymous.e.ICommand|canCommandSenderUseCommand|(Lnet/minecraft/command/ICommandSender;)Z|sender|0
+   Method End: canCommandSenderUseCommand(Lnet/minecraft/command/ICommandSender;)Z
+   Method Start: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|1036|1050|processCommand|method|net.minecraft.command.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|1096|1112|CommandException|class|net.minecraft.command.CommandException
+      @|com\anonymous\e\ICommand.java|1051|1065|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\anonymous\e\ICommand.java|1066|1072|sender|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|1074|1080|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|1083|1087|args|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\anonymous\e\ICommand.java|1123|1129|System|class|java.lang.System
+      @|com\anonymous\e\ICommand.java|1130|1133|out|field|java.lang.System|out
+      @|com\anonymous\e\ICommand.java|1134|1141|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|1182|1186|args|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com\anonymous\e\ICommand.java|1224|1228|args|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com\anonymous\e\ICommand.java|1256|1262|System|class|java.lang.System
+      @|com\anonymous\e\ICommand.java|1263|1266|out|field|java.lang.System|out
+      @|com\anonymous\e\ICommand.java|1267|1274|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|1301|1305|args|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\anonymous\e\ICommand.java|1348|1352|args|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com\anonymous\e\ICommand.java|1380|1391|printStatus|method|com.anonymous.e.ICommand|printStatus|(Lnet/minecraft/command/ICommandSender;)V
+      @|com\anonymous\e\ICommand.java|1392|1398|sender|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|1448|1452|args|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\anonymous\e\ICommand.java|1456|1467|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|com\anonymous\e\ICommand.java|1521|1523|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|1524|1533|isEnabled|method|com.anonymous.e.module.Fastmine|isEnabled|()Z
+      @|com\anonymous\e\ICommand.java|1539|1541|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|1542|1549|disable|method|com.anonymous.e.module.Fastmine|disable|()V
+      @|com\anonymous\e\ICommand.java|1553|1557|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|1558|1564|sender|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|1566|1572|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|1639|1641|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|1642|1648|enable|method|com.anonymous.e.module.Fastmine|enable|()V
+      @|com\anonymous\e\ICommand.java|1653|1657|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|1658|1664|sender|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|1666|1672|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|1717|1720|cfg|field|com.anonymous.e.ICommand|cfg
+      @|com\anonymous\e\ICommand.java|1721|1725|save|method|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\ICommand.java|1726|1728|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|1795|1804|handleSet|method|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|1805|1811|sender|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|1813|1817|args|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\anonymous\e\ICommand.java|1885|1888|cfg|field|com.anonymous.e.ICommand|cfg
+      @|com\anonymous\e\ICommand.java|1889|1893|save|method|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\ICommand.java|1894|1896|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|1915|1919|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|1920|1926|sender|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|1928|1934|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|2041|2049|sendHelp|method|com.anonymous.e.ICommand|sendHelp|(Lnet/minecraft/command/ICommandSender;)V
+      @|com\anonymous\e\ICommand.java|2050|2056|sender|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|2120|2124|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|2125|2131|sender|param|com.anonymous.e.ICommand|processCommand|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|2133|2139|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+   Method End: processCommand(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: handleSet(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|2212|2221|handleSet|method|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|2222|2236|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\anonymous\e\ICommand.java|2237|2243|sender|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|2245|2251|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|2254|2258|args|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\anonymous\e\ICommand.java|2274|2278|args|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      Field: Array Length, skipping
+      @|com\anonymous\e\ICommand.java|2305|2309|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|2310|2316|sender|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|2318|2324|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|2398|2404|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|2413|2417|args|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\anonymous\e\ICommand.java|2421|2432|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|com\anonymous\e\ICommand.java|2444|2450|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|2459|2463|args|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|args|1
+      @|com\anonymous\e\ICommand.java|2467|2478|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|com\anonymous\e\ICommand.java|2562|2573|parseDouble|method|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D
+      @|com\anonymous\e\ICommand.java|2574|2580|sender|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|2589|2591|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|2592|2597|delay|field|com.anonymous.e.module.Fastmine|delay
+      @|com\anonymous\e\ICommand.java|2598|2604|getMin|method|com.anonymous.e.module.setting.impl.SliderSetting|getMin|()D
+      @|com\anonymous\e\ICommand.java|2608|2610|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|2611|2616|delay|field|com.anonymous.e.module.Fastmine|delay
+      @|com\anonymous\e\ICommand.java|2617|2623|getMax|method|com.anonymous.e.module.setting.impl.SliderSetting|getMax|()D
+      @|com\anonymous\e\ICommand.java|2648|2654|Double|class|java.lang.Double
+      @|com\anonymous\e\ICommand.java|2655|2660|isNaN|method|java.lang.Double|isNaN|(D)Z
+      @|com\anonymous\e\ICommand.java|2689|2691|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|2692|2697|delay|field|com.anonymous.e.module.Fastmine|delay
+      @|com\anonymous\e\ICommand.java|2698|2706|setValue|method|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D
+      @|com\anonymous\e\ICommand.java|2727|2731|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|2732|2738|sender|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|2740|2746|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|2776|2778|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|2779|2784|delay|field|com.anonymous.e.module.Fastmine|delay
+      @|com\anonymous\e\ICommand.java|2785|2793|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\ICommand.java|2827|2830|cfg|field|com.anonymous.e.ICommand|cfg
+      @|com\anonymous\e\ICommand.java|2831|2835|save|method|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\ICommand.java|2836|2838|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|2965|2976|parseDouble|method|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D
+      @|com\anonymous\e\ICommand.java|2977|2983|sender|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|2992|2994|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|2995|3005|multiplier|field|com.anonymous.e.module.Fastmine|multiplier
+      @|com\anonymous\e\ICommand.java|3006|3012|getMin|method|com.anonymous.e.module.setting.impl.SliderSetting|getMin|()D
+      @|com\anonymous\e\ICommand.java|3016|3018|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|3019|3029|multiplier|field|com.anonymous.e.module.Fastmine|multiplier
+      @|com\anonymous\e\ICommand.java|3030|3036|getMax|method|com.anonymous.e.module.setting.impl.SliderSetting|getMax|()D
+      @|com\anonymous\e\ICommand.java|3061|3067|Double|class|java.lang.Double
+      @|com\anonymous\e\ICommand.java|3068|3073|isNaN|method|java.lang.Double|isNaN|(D)Z
+      @|com\anonymous\e\ICommand.java|3102|3104|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|3105|3115|multiplier|field|com.anonymous.e.module.Fastmine|multiplier
+      @|com\anonymous\e\ICommand.java|3116|3124|setValue|method|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D
+      @|com\anonymous\e\ICommand.java|3145|3149|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|3150|3156|sender|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|3181|3183|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|3184|3194|multiplier|field|com.anonymous.e.module.Fastmine|multiplier
+      @|com\anonymous\e\ICommand.java|3195|3203|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\ICommand.java|3230|3233|cfg|field|com.anonymous.e.ICommand|cfg
+      @|com\anonymous\e\ICommand.java|3234|3238|save|method|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\ICommand.java|3239|3241|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|3335|3349|parseModeIndex|method|com.anonymous.e.ICommand|parseModeIndex|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I
+      @|com\anonymous\e\ICommand.java|3350|3356|sender|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|3419|3421|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|3422|3426|mode|field|com.anonymous.e.module.Fastmine|mode
+      @|com\anonymous\e\ICommand.java|3427|3435|setValue|method|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D
+      @|com\anonymous\e\ICommand.java|3458|3464|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|3476|3478|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|3479|3483|mode|field|com.anonymous.e.module.Fastmine|mode
+      @|com\anonymous\e\ICommand.java|3484|3494|getOptions|method|com.anonymous.e.module.setting.impl.SliderSetting|getOptions|()[Ljava/lang/String;
+      @|com\anonymous\e\ICommand.java|3519|3523|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|3524|3530|sender|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|3532|3538|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|3582|3585|cfg|field|com.anonymous.e.ICommand|cfg
+      @|com\anonymous\e\ICommand.java|3586|3590|save|method|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\ICommand.java|3591|3593|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|3732|3741|parseBool|method|com.anonymous.e.ICommand|parseBool|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)Z
+      @|com\anonymous\e\ICommand.java|3742|3748|sender|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|3783|3785|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|3786|3801|creativeDisable|field|com.anonymous.e.module.Fastmine|creativeDisable
+      @|com\anonymous\e\ICommand.java|3802|3808|enable|method|com.anonymous.e.module.setting.impl.ButtonSetting|enable|()V
+      @|com\anonymous\e\ICommand.java|3837|3839|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|3840|3855|creativeDisable|field|com.anonymous.e.module.Fastmine|creativeDisable
+      @|com\anonymous\e\ICommand.java|3856|3863|disable|method|com.anonymous.e.module.setting.impl.ButtonSetting|disable|()V
+      @|com\anonymous\e\ICommand.java|3883|3887|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|3888|3894|sender|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|3896|3902|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|3935|3937|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|3938|3953|creativeDisable|field|com.anonymous.e.module.Fastmine|creativeDisable
+      @|com\anonymous\e\ICommand.java|3954|3963|isToggled|method|com.anonymous.e.module.setting.impl.ButtonSetting|isToggled|()Z
+      @|com\anonymous\e\ICommand.java|4000|4003|cfg|field|com.anonymous.e.ICommand|cfg
+      @|com\anonymous\e\ICommand.java|4004|4008|save|method|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\ICommand.java|4009|4011|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|4089|4093|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|4094|4100|sender|param|com.anonymous.e.ICommand|handleSet|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V|sender|0
+   Method End: handleSet(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V
+   Method Start: printStatus(Lnet/minecraft/command/ICommandSender;)V
+      @|com\anonymous\e\ICommand.java|4217|4228|printStatus|method|com.anonymous.e.ICommand|printStatus|(Lnet/minecraft/command/ICommandSender;)V
+      @|com\anonymous\e\ICommand.java|4229|4243|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\anonymous\e\ICommand.java|4244|4250|sender|param|com.anonymous.e.ICommand|printStatus|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|4262|4268|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|4282|4284|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|4285|4294|isEnabled|method|com.anonymous.e.module.Fastmine|isEnabled|()Z
+      @|com\anonymous\e\ICommand.java|4325|4331|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|4345|4347|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|4348|4352|mode|field|com.anonymous.e.module.Fastmine|mode
+      @|com\anonymous\e\ICommand.java|4353|4363|getOptions|method|com.anonymous.e.module.setting.impl.SliderSetting|getOptions|()[Ljava/lang/String;
+      @|com\anonymous\e\ICommand.java|4372|4374|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|4375|4379|mode|field|com.anonymous.e.module.Fastmine|mode
+      @|com\anonymous\e\ICommand.java|4380|4388|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\ICommand.java|4401|4405|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|4406|4412|sender|param|com.anonymous.e.ICommand|printStatus|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|4414|4420|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|4459|4463|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|4464|4470|sender|param|com.anonymous.e.ICommand|printStatus|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|4472|4478|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|4510|4512|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|4513|4518|delay|field|com.anonymous.e.module.Fastmine|delay
+      @|com\anonymous\e\ICommand.java|4519|4527|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\ICommand.java|4571|4575|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|4576|4582|sender|param|com.anonymous.e.ICommand|printStatus|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|4584|4590|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|4616|4618|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|4619|4629|multiplier|field|com.anonymous.e.module.Fastmine|multiplier
+      @|com\anonymous\e\ICommand.java|4630|4638|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\ICommand.java|4677|4681|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|4682|4688|sender|param|com.anonymous.e.ICommand|printStatus|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|4690|4696|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|4740|4744|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|4745|4751|sender|param|com.anonymous.e.ICommand|printStatus|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|4753|4759|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|4786|4788|fm|field|com.anonymous.e.ICommand|fm
+      @|com\anonymous\e\ICommand.java|4789|4804|creativeDisable|field|com.anonymous.e.module.Fastmine|creativeDisable
+      @|com\anonymous\e\ICommand.java|4805|4814|isToggled|method|com.anonymous.e.module.setting.impl.ButtonSetting|isToggled|()Z
+      @|com\anonymous\e\ICommand.java|4850|4854|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|4855|4861|sender|param|com.anonymous.e.ICommand|printStatus|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|4863|4869|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+   Method End: printStatus(Lnet/minecraft/command/ICommandSender;)V
+   Method Start: sendHelp(Lnet/minecraft/command/ICommandSender;)V
+      @|com\anonymous\e\ICommand.java|4932|4940|sendHelp|method|com.anonymous.e.ICommand|sendHelp|(Lnet/minecraft/command/ICommandSender;)V
+      @|com\anonymous\e\ICommand.java|4941|4955|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\anonymous\e\ICommand.java|4956|4962|sender|param|com.anonymous.e.ICommand|sendHelp|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|4974|4978|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|4979|4985|sender|param|com.anonymous.e.ICommand|sendHelp|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|4987|4993|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|5040|5044|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|5045|5051|sender|param|com.anonymous.e.ICommand|sendHelp|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|5053|5059|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|5108|5112|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|5113|5119|sender|param|com.anonymous.e.ICommand|sendHelp|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|5121|5127|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|5188|5192|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|5193|5199|sender|param|com.anonymous.e.ICommand|sendHelp|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|5201|5207|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|5276|5280|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|5281|5287|sender|param|com.anonymous.e.ICommand|sendHelp|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|5289|5295|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|5356|5360|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|5361|5367|sender|param|com.anonymous.e.ICommand|sendHelp|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|5369|5375|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|5444|5448|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|5449|5455|sender|param|com.anonymous.e.ICommand|sendHelp|(Lnet/minecraft/command/ICommandSender;)V|sender|0
+      @|com\anonymous\e\ICommand.java|5457|5463|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+   Method End: sendHelp(Lnet/minecraft/command/ICommandSender;)V
+   Method Start: send(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|5535|5539|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|5540|5554|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\anonymous\e\ICommand.java|5555|5561|sender|param|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|5563|5569|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|5570|5573|msg|param|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|msg|1
+      @|com\anonymous\e\ICommand.java|5585|5591|sender|param|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|sender|0
+      @|com\anonymous\e\ICommand.java|5592|5606|addChatMessage|method|net.minecraft.command.ICommandSender|addChatMessage|(Lnet/minecraft/util/IChatComponent;)V
+      @|com\anonymous\e\ICommand.java|5611|5628|ChatComponentText|class|net.minecraft.util.ChatComponentText
+      @|com\anonymous\e\ICommand.java|5629|5635|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|5638|5641|msg|param|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V|msg|1
+   Method End: send(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+   Method Start: parseDouble(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D
+      @|com\anonymous\e\ICommand.java|5671|5682|parseDouble|method|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D
+      @|com\anonymous\e\ICommand.java|5683|5697|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\anonymous\e\ICommand.java|5698|5704|sender|param|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D|sender|0
+      @|com\anonymous\e\ICommand.java|5706|5712|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|5713|5714|s|param|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D|s|1
+      @|com\anonymous\e\ICommand.java|5723|5726|min|param|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D|min|2
+      @|com\anonymous\e\ICommand.java|5735|5738|max|param|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D|max|3
+      @|com\anonymous\e\ICommand.java|5779|5785|Double|class|java.lang.Double
+      @|com\anonymous\e\ICommand.java|5786|5797|parseDouble|method|java.lang.Double|parseDouble|(Ljava/lang/String;)D
+      @|com\anonymous\e\ICommand.java|5798|5799|s|param|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D|s|1
+      @|com\anonymous\e\ICommand.java|5822|5825|min|param|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D|min|2
+      @|com\anonymous\e\ICommand.java|5833|5836|max|param|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D|max|3
+      @|com\anonymous\e\ICommand.java|5856|5860|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|5861|5867|sender|param|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D|sender|0
+      @|com\anonymous\e\ICommand.java|5869|5875|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|5905|5908|min|param|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D|min|2
+      @|com\anonymous\e\ICommand.java|5921|5924|max|param|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D|max|3
+      @|com\anonymous\e\ICommand.java|5950|5956|Double|class|java.lang.Double
+      @|com\anonymous\e\ICommand.java|5957|5960|NaN|field|java.lang.Double|NaN
+      @|com\anonymous\e\ICommand.java|6015|6036|NumberFormatException|class|java.lang.NumberFormatException
+      @|com\anonymous\e\ICommand.java|6054|6058|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|6059|6065|sender|param|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D|sender|0
+      @|com\anonymous\e\ICommand.java|6067|6073|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|6097|6098|s|param|com.anonymous.e.ICommand|parseDouble|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D|s|1
+      @|com\anonymous\e\ICommand.java|6120|6126|Double|class|java.lang.Double
+      @|com\anonymous\e\ICommand.java|6127|6130|NaN|field|java.lang.Double|NaN
+   Method End: parseDouble(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D
+   Method Start: parseModeIndex(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I
+      @|com\anonymous\e\ICommand.java|6165|6179|parseModeIndex|method|com.anonymous.e.ICommand|parseModeIndex|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I
+      @|com\anonymous\e\ICommand.java|6180|6194|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\anonymous\e\ICommand.java|6195|6201|sender|param|com.anonymous.e.ICommand|parseModeIndex|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I|sender|0
+      @|com\anonymous\e\ICommand.java|6203|6209|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|6210|6211|s|param|com.anonymous.e.ICommand|parseModeIndex|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I|s|1
+      @|com\anonymous\e\ICommand.java|6231|6232|s|param|com.anonymous.e.ICommand|parseModeIndex|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I|s|1
+      @|com\anonymous\e\ICommand.java|6407|6411|send|method|com.anonymous.e.ICommand|send|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V
+      @|com\anonymous\e\ICommand.java|6412|6418|sender|param|com.anonymous.e.ICommand|parseModeIndex|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I|sender|0
+      @|com\anonymous\e\ICommand.java|6420|6426|PREFIX|field|com.anonymous.e.ICommand|PREFIX
+      @|com\anonymous\e\ICommand.java|6449|6450|s|param|com.anonymous.e.ICommand|parseModeIndex|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I|s|1
+   Method End: parseModeIndex(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I
+   Method Start: parseBool(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)Z
+      @|com\anonymous\e\ICommand.java|6547|6556|parseBool|method|com.anonymous.e.ICommand|parseBool|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)Z
+      @|com\anonymous\e\ICommand.java|6557|6571|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\anonymous\e\ICommand.java|6572|6578|sender|param|com.anonymous.e.ICommand|parseBool|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)Z|sender|0
+      @|com\anonymous\e\ICommand.java|6580|6586|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|6587|6588|s|param|com.anonymous.e.ICommand|parseBool|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)Z|s|1
+      @|com\anonymous\e\ICommand.java|6607|6608|s|param|com.anonymous.e.ICommand|parseBool|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)Z|s|1
+      @|com\anonymous\e\ICommand.java|6609|6615|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com\anonymous\e\ICommand.java|6625|6626|s|param|com.anonymous.e.ICommand|parseBool|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)Z|s|1
+      @|com\anonymous\e\ICommand.java|6627|6633|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com\anonymous\e\ICommand.java|6645|6646|s|param|com.anonymous.e.ICommand|parseBool|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)Z|s|1
+      @|com\anonymous\e\ICommand.java|6647|6653|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|com\anonymous\e\ICommand.java|6662|6663|s|param|com.anonymous.e.ICommand|parseBool|(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)Z|s|1
+      @|com\anonymous\e\ICommand.java|6664|6670|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+   Method End: parseBool(Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)Z
+   Method Start: addTabCompletionOptions(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+      @|com\anonymous\e\ICommand.java|6724|6747|addTabCompletionOptions|method|net.minecraft.command.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+      @|com\anonymous\e\ICommand.java|6716|6722|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|6711|6715|List|class|java.util.List
+      @|com\anonymous\e\ICommand.java|6748|6762|ICommandSender|class|net.minecraft.command.ICommandSender
+      @|com\anonymous\e\ICommand.java|6763|6769|sender|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|sender|0
+      @|com\anonymous\e\ICommand.java|6771|6777|String|class|java.lang.String
+      @|com\anonymous\e\ICommand.java|6780|6784|args|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\anonymous\e\ICommand.java|6786|6813|net.minecraft.util.BlockPos|class|net.minecraft.util.BlockPos
+      @|com\anonymous\e\ICommand.java|6814|6817|pos|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|pos|2
+      @|com\anonymous\e\ICommand.java|6833|6837|args|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      Field: Array Length, skipping
+      @|com\anonymous\e\ICommand.java|6872|6904|getListOfStringsMatchingLastWord|method|net.minecraft.command.CommandBase|getListOfStringsMatchingLastWord|([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;
+      @|com\anonymous\e\ICommand.java|6905|6909|args|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\anonymous\e\ICommand.java|6967|6971|args|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      Field: Array Length, skipping
+      @|com\anonymous\e\ICommand.java|6987|6991|args|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\anonymous\e\ICommand.java|6995|7011|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|com\anonymous\e\ICommand.java|7041|7073|getListOfStringsMatchingLastWord|method|net.minecraft.command.CommandBase|getListOfStringsMatchingLastWord|([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;
+      @|com\anonymous\e\ICommand.java|7074|7078|args|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\anonymous\e\ICommand.java|7146|7150|args|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      Field: Array Length, skipping
+      @|com\anonymous\e\ICommand.java|7166|7170|args|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\anonymous\e\ICommand.java|7174|7190|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|com\anonymous\e\ICommand.java|7221|7225|args|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\anonymous\e\ICommand.java|7229|7240|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|com\anonymous\e\ICommand.java|7302|7334|getListOfStringsMatchingLastWord|method|net.minecraft.command.CommandBase|getListOfStringsMatchingLastWord|([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;
+      @|com\anonymous\e\ICommand.java|7335|7339|args|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\anonymous\e\ICommand.java|7424|7456|getListOfStringsMatchingLastWord|method|net.minecraft.command.CommandBase|getListOfStringsMatchingLastWord|([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;
+      @|com\anonymous\e\ICommand.java|7457|7461|args|param|com.anonymous.e.ICommand|addTabCompletionOptions|(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;|args|1
+      @|com\anonymous\e\ICommand.java|7516|7527|Collections|class|java.util.Collections
+      @|com\anonymous\e\ICommand.java|7528|7537|emptyList|method|java.util.Collections|emptyList|()Ljava/util/List;
+   Method End: addTabCompletionOptions(Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;
+Class End  : com.anonymous.e.ICommand
+endProcessing com\anonymous\e\ICommand.java
+
+processing com\anonymous\e\e.java
+@|com\anonymous\e\e.java|8|23|com.anonymous.e|package|com.anonymous.e|(file)
+Class Start: com.anonymous.e.e
+   @|com\anonymous\e\e.java|449|457|Fastmine|class|com.anonymous.e.module.Fastmine
+   @|com\anonymous\e\e.java|458|466|fastMine|field|com.anonymous.e.e|fastMine|
+   @|com\anonymous\e\e.java|486|497|ConfigUtils|class|com.anonymous.e.ConfigUtils
+   @|com\anonymous\e\e.java|498|509|configUtils|field|com.anonymous.e.e|configUtils|
+   Method Start: e()V
+      @|com\anonymous\e\e.java|523|524|e|method|com.anonymous.e.e|e|()V
+   Method End: e()V
+   Method Start: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\anonymous\e\e.java|570|574|init|method|com.anonymous.e.e|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+      @|com\anonymous\e\e.java|575|597|FMLInitializationEvent|class|net.minecraftforge.fml.common.event.FMLInitializationEvent
+      @|com\anonymous\e\e.java|598|603|event|param|com.anonymous.e.e|init|(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V|event|0
+      @|com\anonymous\e\e.java|615|623|fastMine|field|com.anonymous.e.e|fastMine
+      @|com\anonymous\e\e.java|635|643|Fastmine|class|com.anonymous.e.module.Fastmine
+      @|com\anonymous\e\e.java|655|666|configUtils|field|com.anonymous.e.e|configUtils
+      @|com\anonymous\e\e.java|673|684|ConfigUtils|class|com.anonymous.e.ConfigUtils
+      @|com\anonymous\e\e.java|697|708|configUtils|field|com.anonymous.e.e|configUtils
+      @|com\anonymous\e\e.java|709|713|load|method|com.anonymous.e.ConfigUtils|load|(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\e.java|714|722|fastMine|field|com.anonymous.e.e|fastMine
+      @|com\anonymous\e\e.java|739|747|fastMine|field|com.anonymous.e.e|fastMine
+      @|com\anonymous\e\e.java|748|757|isEnabled|method|com.anonymous.e.module.Fastmine|isEnabled|()Z
+      @|com\anonymous\e\e.java|775|783|fastMine|field|com.anonymous.e.e|fastMine
+      @|com\anonymous\e\e.java|784|790|enable|method|com.anonymous.e.module.Fastmine|enable|()V
+      @|com\anonymous\e\e.java|806|817|configUtils|field|com.anonymous.e.e|configUtils
+      @|com\anonymous\e\e.java|818|822|save|method|com.anonymous.e.ConfigUtils|save|(Lcom/anonymous/e/module/Fastmine;)V
+      @|com\anonymous\e\e.java|823|831|fastMine|field|com.anonymous.e.e|fastMine
+      @|com\anonymous\e\e.java|853|873|ClientCommandHandler|class|net.minecraftforge.client.ClientCommandHandler
+      @|com\anonymous\e\e.java|874|882|instance|field|net.minecraftforge.client.ClientCommandHandler|instance
+      @|com\anonymous\e\e.java|883|898|registerCommand|method|net.minecraft.command.CommandHandler|registerCommand|(Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;
+      @|com\anonymous\e\e.java|920|928|ICommand|class|com.anonymous.e.ICommand
+      @|com\anonymous\e\e.java|929|937|fastMine|field|com.anonymous.e.e|fastMine
+      @|com\anonymous\e\e.java|939|950|configUtils|field|com.anonymous.e.e|configUtils
+   Method End: init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V
+Class End  : com.anonymous.e.e
+endProcessing com\anonymous\e\e.java
+
+processing com\anonymous\e\mixin\IAccessorPlayerControllerMP.java
+@|com\anonymous\e\mixin\IAccessorPlayerControllerMP.java|8|29|com.anonymous.e.mixin|package|com.anonymous.e.mixin|(file)
+Class Start: com.anonymous.e.mixin.IAccessorPlayerControllerMP
+   Method Start: getCurBlockDamageMP()F
+      @|com\anonymous\e\mixin\IAccessorPlayerControllerMP.java|410|429|getCurBlockDamageMP|method|com.anonymous.e.mixin.IAccessorPlayerControllerMP|getCurBlockDamageMP|()F
+   Method End: getCurBlockDamageMP()F
+   Method Start: setCurBlockDamageMP(F)V
+      @|com\anonymous\e\mixin\IAccessorPlayerControllerMP.java|457|476|setCurBlockDamageMP|method|com.anonymous.e.mixin.IAccessorPlayerControllerMP|setCurBlockDamageMP|(F)V
+      @|com\anonymous\e\mixin\IAccessorPlayerControllerMP.java|483|499|curBlockDamageMP|param|com.anonymous.e.mixin.IAccessorPlayerControllerMP|setCurBlockDamageMP|(F)V|curBlockDamageMP|0
+   Method End: setCurBlockDamageMP(F)V
+   Method Start: getBlockHitDelay()I
+      @|com\anonymous\e\mixin\IAccessorPlayerControllerMP.java|525|541|getBlockHitDelay|method|com.anonymous.e.mixin.IAccessorPlayerControllerMP|getBlockHitDelay|()I
+   Method End: getBlockHitDelay()I
+   Method Start: setBlockHitDelay(I)V
+      @|com\anonymous\e\mixin\IAccessorPlayerControllerMP.java|569|585|setBlockHitDelay|method|com.anonymous.e.mixin.IAccessorPlayerControllerMP|setBlockHitDelay|(I)V
+      @|com\anonymous\e\mixin\IAccessorPlayerControllerMP.java|590|603|blockHitDelay|param|com.anonymous.e.mixin.IAccessorPlayerControllerMP|setBlockHitDelay|(I)V|blockHitDelay|0
+   Method End: setBlockHitDelay(I)V
+Class End  : com.anonymous.e.mixin.IAccessorPlayerControllerMP
+endProcessing com\anonymous\e\mixin\IAccessorPlayerControllerMP.java
+
+processing com\anonymous\e\module\Fastmine.java
+@|com\anonymous\e\module\Fastmine.java|8|30|com.anonymous.e.module|package|com.anonymous.e.module|(file)
+Class Start: com.anonymous.e.module.Fastmine
+   @|com\anonymous\e\module\Fastmine.java|599|608|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\anonymous\e\module\Fastmine.java|609|611|mc|field|com.anonymous.e.module.Fastmine|mc|
+   @|com\anonymous\e\module\Fastmine.java|614|623|Minecraft|class|net.minecraft.client.Minecraft
+   @|com\anonymous\e\module\Fastmine.java|624|636|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+   @|com\anonymous\e\module\Fastmine.java|658|671|SliderSetting|class|com.anonymous.e.module.setting.impl.SliderSetting
+   @|com\anonymous\e\module\Fastmine.java|672|677|delay|field|com.anonymous.e.module.Fastmine|delay|
+   @|com\anonymous\e\module\Fastmine.java|689|702|SliderSetting|class|com.anonymous.e.module.setting.impl.SliderSetting
+   @|com\anonymous\e\module\Fastmine.java|766|779|SliderSetting|class|com.anonymous.e.module.setting.impl.SliderSetting
+   @|com\anonymous\e\module\Fastmine.java|780|790|multiplier|field|com.anonymous.e.module.Fastmine|multiplier|
+   @|com\anonymous\e\module\Fastmine.java|797|810|SliderSetting|class|com.anonymous.e.module.setting.impl.SliderSetting
+   @|com\anonymous\e\module\Fastmine.java|875|888|SliderSetting|class|com.anonymous.e.module.setting.impl.SliderSetting
+   @|com\anonymous\e\module\Fastmine.java|889|893|mode|field|com.anonymous.e.module.Fastmine|mode|
+   @|com\anonymous\e\module\Fastmine.java|906|919|SliderSetting|class|com.anonymous.e.module.setting.impl.SliderSetting
+   @|com\anonymous\e\module\Fastmine.java|935|941|String|class|java.lang.String
+   @|com\anonymous\e\module\Fastmine.java|991|1004|ButtonSetting|class|com.anonymous.e.module.setting.impl.ButtonSetting
+   @|com\anonymous\e\module\Fastmine.java|1005|1020|creativeDisable|field|com.anonymous.e.module.Fastmine|creativeDisable|
+   @|com\anonymous\e\module\Fastmine.java|1027|1040|ButtonSetting|class|com.anonymous.e.module.setting.impl.ButtonSetting
+   @|com\anonymous\e\module\Fastmine.java|1092|1099|enabled|field|com.anonymous.e.module.Fastmine|enabled|
+   @|com\anonymous\e\module\Fastmine.java|1127|1147|lastCurBlockDamageMP|field|com.anonymous.e.module.Fastmine|lastCurBlockDamageMP|
+   Method Start: Fastmine()V
+      @|com\anonymous\e\module\Fastmine.java|1168|1176|Fastmine|method|com.anonymous.e.module.Fastmine|Fastmine|()V
+   Method End: Fastmine()V
+   Method Start: enable()V
+      @|com\anonymous\e\module\Fastmine.java|1199|1205|enable|method|com.anonymous.e.module.Fastmine|enable|()V
+      @|com\anonymous\e\module\Fastmine.java|1223|1230|enabled|field|com.anonymous.e.module.Fastmine|enabled
+      @|com\anonymous\e\module\Fastmine.java|1246|1253|enabled|field|com.anonymous.e.module.Fastmine|enabled
+      @|com\anonymous\e\module\Fastmine.java|1274|1288|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\anonymous\e\module\Fastmine.java|1289|1298|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\anonymous\e\module\Fastmine.java|1299|1307|register|method|net.minecraftforge.fml.common.eventhandler.EventBus|register|(Ljava/lang/Object;)V
+   Method End: enable()V
+   Method Start: disable()V
+      @|com\anonymous\e\module\Fastmine.java|1348|1355|disable|method|com.anonymous.e.module.Fastmine|disable|()V
+      @|com\anonymous\e\module\Fastmine.java|1372|1379|enabled|field|com.anonymous.e.module.Fastmine|enabled
+      @|com\anonymous\e\module\Fastmine.java|1395|1402|enabled|field|com.anonymous.e.module.Fastmine|enabled
+      @|com\anonymous\e\module\Fastmine.java|1424|1438|MinecraftForge|class|net.minecraftforge.common.MinecraftForge
+      @|com\anonymous\e\module\Fastmine.java|1439|1448|EVENT_BUS|field|net.minecraftforge.common.MinecraftForge|EVENT_BUS
+      @|com\anonymous\e\module\Fastmine.java|1449|1459|unregister|method|net.minecraftforge.fml.common.eventhandler.EventBus|unregister|(Ljava/lang/Object;)V
+   Method End: disable()V
+   Method Start: isEnabled()Z
+      @|com\anonymous\e\module\Fastmine.java|1503|1512|isEnabled|method|com.anonymous.e.module.Fastmine|isEnabled|()Z
+      @|com\anonymous\e\module\Fastmine.java|1532|1539|enabled|field|com.anonymous.e.module.Fastmine|enabled
+   Method End: isEnabled()Z
+   Method Start: onPlayerTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V
+      @|com\anonymous\e\module\Fastmine.java|1584|1596|onPlayerTick|method|com.anonymous.e.module.Fastmine|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V
+      @|com\anonymous\e\module\Fastmine.java|1597|1622|TickEvent.PlayerTickEvent|class|net.minecraftforge.fml.common.gameevent.TickEvent.PlayerTickEvent
+      @|com\anonymous\e\module\Fastmine.java|1623|1624|e|param|com.anonymous.e.module.Fastmine|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V|e|0
+      @|com\anonymous\e\module\Fastmine.java|1640|1641|e|param|com.anonymous.e.module.Fastmine|onPlayerTick|(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V|e|0
+      @|com\anonymous\e\module\Fastmine.java|1642|1647|phase|field|net.minecraftforge.fml.common.gameevent.TickEvent|phase
+      @|com\anonymous\e\module\Fastmine.java|1651|1656|Phase|class|net.minecraftforge.fml.common.gameevent.TickEvent.Phase
+      @|com\anonymous\e\module\Fastmine.java|1657|1660|END|field|net.minecraftforge.fml.common.gameevent.TickEvent.Phase|END
+      @|com\anonymous\e\module\Fastmine.java|1683|1685|mc|field|com.anonymous.e.module.Fastmine|mc
+      @|com\anonymous\e\module\Fastmine.java|1686|1700|inGameHasFocus|field|net.minecraft.client.Minecraft|inGameHasFocus
+      @|com\anonymous\e\module\Fastmine.java|1705|1715|BlockUtils|class|com.anonymous.e.BlockUtils
+      @|com\anonymous\e\module\Fastmine.java|1716|1725|nullCheck|method|com.anonymous.e.BlockUtils|nullCheck|()Z
+      @|com\anonymous\e\module\Fastmine.java|1749|1764|creativeDisable|field|com.anonymous.e.module.Fastmine|creativeDisable
+      @|com\anonymous\e\module\Fastmine.java|1765|1774|isToggled|method|com.anonymous.e.module.setting.impl.ButtonSetting|isToggled|()Z
+      @|com\anonymous\e\module\Fastmine.java|1780|1782|mc|field|com.anonymous.e.module.Fastmine|mc
+      @|com\anonymous\e\module\Fastmine.java|1783|1792|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\anonymous\e\module\Fastmine.java|1793|1805|capabilities|field|net.minecraft.entity.player.EntityPlayer|capabilities
+      @|com\anonymous\e\module\Fastmine.java|1806|1820|isCreativeMode|field|net.minecraft.entity.player.PlayerCapabilities|isCreativeMode
+      @|com\anonymous\e\module\Fastmine.java|1839|1866|IAccessorPlayerControllerMP|class|com.anonymous.e.mixin.IAccessorPlayerControllerMP
+      @|com\anonymous\e\module\Fastmine.java|1881|1908|IAccessorPlayerControllerMP|class|com.anonymous.e.mixin.IAccessorPlayerControllerMP
+      @|com\anonymous\e\module\Fastmine.java|1910|1912|mc|field|com.anonymous.e.module.Fastmine|mc
+      @|com\anonymous\e\module\Fastmine.java|1913|1929|playerController|field|net.minecraft.client.Minecraft|playerController
+      @|com\anonymous\e\module\Fastmine.java|1964|1969|delay|field|com.anonymous.e.module.Fastmine|delay
+      @|com\anonymous\e\module\Fastmine.java|1970|1978|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\module\Fastmine.java|2076|2092|setBlockHitDelay|method|com.anonymous.e.mixin.IAccessorPlayerControllerMP|setBlockHitDelay|(I)V
+      @|com\anonymous\e\module\Fastmine.java|2131|2147|getBlockHitDelay|method|com.anonymous.e.mixin.IAccessorPlayerControllerMP|getBlockHitDelay|()I
+      @|com\anonymous\e\module\Fastmine.java|2194|2210|setBlockHitDelay|method|com.anonymous.e.mixin.IAccessorPlayerControllerMP|setBlockHitDelay|(I)V
+      @|com\anonymous\e\module\Fastmine.java|2272|2282|multiplier|field|com.anonymous.e.module.Fastmine|multiplier
+      @|com\anonymous\e\module\Fastmine.java|2283|2291|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\module\Fastmine.java|2338|2340|mc|field|com.anonymous.e.module.Fastmine|mc
+      @|com\anonymous\e\module\Fastmine.java|2341|2350|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\anonymous\e\module\Fastmine.java|2351|2363|capabilities|field|net.minecraft.entity.player.EntityPlayer|capabilities
+      @|com\anonymous\e\module\Fastmine.java|2364|2378|isCreativeMode|field|net.minecraft.entity.player.PlayerCapabilities|isCreativeMode
+      @|com\anonymous\e\module\Fastmine.java|2382|2387|Mouse|class|org.lwjgl.input.Mouse
+      @|com\anonymous\e\module\Fastmine.java|2388|2400|isButtonDown|method|org.lwjgl.input.Mouse|isButtonDown|(I)Z
+      @|com\anonymous\e\module\Fastmine.java|2457|2476|getCurBlockDamageMP|method|com.anonymous.e.mixin.IAccessorPlayerControllerMP|getCurBlockDamageMP|()F
+      @|com\anonymous\e\module\Fastmine.java|2518|2522|mode|field|com.anonymous.e.module.Fastmine|mode
+      @|com\anonymous\e\module\Fastmine.java|2523|2531|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\module\Fastmine.java|2796|2815|setCurBlockDamageMP|method|com.anonymous.e.mixin.IAccessorPlayerControllerMP|setCurBlockDamageMP|(F)V
+      @|com\anonymous\e\module\Fastmine.java|3121|3140|setCurBlockDamageMP|method|com.anonymous.e.mixin.IAccessorPlayerControllerMP|setCurBlockDamageMP|(F)V
+      @|com\anonymous\e\module\Fastmine.java|3402|3404|mc|field|com.anonymous.e.module.Fastmine|mc
+      @|com\anonymous\e\module\Fastmine.java|3405|3420|objectMouseOver|field|net.minecraft.client.Minecraft|objectMouseOver
+      @|com\anonymous\e\module\Fastmine.java|3449|3469|lastCurBlockDamageMP|field|com.anonymous.e.module.Fastmine|lastCurBlockDamageMP
+      @|com\anonymous\e\module\Fastmine.java|3505|3530|net.minecraft.block.Block|class|net.minecraft.block.Block
+      @|com\anonymous\e\module\Fastmine.java|3582|3584|mc|field|com.anonymous.e.module.Fastmine|mc
+      @|com\anonymous\e\module\Fastmine.java|3585|3593|theWorld|field|net.minecraft.client.Minecraft|theWorld
+      @|com\anonymous\e\module\Fastmine.java|3643|3656|getBlockState|method|net.minecraft.world.IBlockAccess|getBlockState|(Lnet/minecraft/util/BlockPos;)Lnet/minecraft/block/state/IBlockState;
+      @|com\anonymous\e\module\Fastmine.java|3657|3659|mc|field|com.anonymous.e.module.Fastmine|mc
+      @|com\anonymous\e\module\Fastmine.java|3660|3675|objectMouseOver|field|net.minecraft.client.Minecraft|objectMouseOver
+      @|com\anonymous\e\module\Fastmine.java|3676|3687|getBlockPos|method|net.minecraft.util.MovingObjectPosition|getBlockPos|()Lnet/minecraft/util/BlockPos;
+      @|com\anonymous\e\module\Fastmine.java|3740|3748|getBlock|method|net.minecraft.block.state.IBlockState|getBlock|()Lnet/minecraft/block/Block;
+      @|com\anonymous\e\module\Fastmine.java|3784|3812|net.minecraft.item.ItemStack|class|net.minecraft.item.ItemStack
+      @|com\anonymous\e\module\Fastmine.java|3864|3866|mc|field|com.anonymous.e.module.Fastmine|mc
+      @|com\anonymous\e\module\Fastmine.java|3867|3876|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\anonymous\e\module\Fastmine.java|3877|3886|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com\anonymous\e\module\Fastmine.java|3936|3950|getStackInSlot|method|net.minecraft.inventory.IInventory|getStackInSlot|(I)Lnet/minecraft/item/ItemStack;
+      @|com\anonymous\e\module\Fastmine.java|3951|3953|mc|field|com.anonymous.e.module.Fastmine|mc
+      @|com\anonymous\e\module\Fastmine.java|3954|3963|thePlayer|field|net.minecraft.client.Minecraft|thePlayer
+      @|com\anonymous\e\module\Fastmine.java|3964|3973|inventory|field|net.minecraft.entity.player.EntityPlayer|inventory
+      @|com\anonymous\e\module\Fastmine.java|3974|3985|currentItem|field|net.minecraft.entity.player.InventoryPlayer|currentItem
+      @|com\anonymous\e\module\Fastmine.java|4044|4054|BlockUtils|class|com.anonymous.e.BlockUtils
+      @|com\anonymous\e\module\Fastmine.java|4055|4071|getBlockHardness|method|com.anonymous.e.BlockUtils|getBlockHardness|(Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F
+      @|com\anonymous\e\module\Fastmine.java|4199|4219|lastCurBlockDamageMP|field|com.anonymous.e.module.Fastmine|lastCurBlockDamageMP
+      @|com\anonymous\e\module\Fastmine.java|4466|4485|setCurBlockDamageMP|method|com.anonymous.e.mixin.IAccessorPlayerControllerMP|setCurBlockDamageMP|(F)V
+      @|com\anonymous\e\module\Fastmine.java|4576|4596|lastCurBlockDamageMP|field|com.anonymous.e.module.Fastmine|lastCurBlockDamageMP
+      @|com\anonymous\e\module\Fastmine.java|4709|4713|mode|field|com.anonymous.e.module.Fastmine|mode
+      @|com\anonymous\e\module\Fastmine.java|4714|4722|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\module\Fastmine.java|4751|4771|lastCurBlockDamageMP|field|com.anonymous.e.module.Fastmine|lastCurBlockDamageMP
+   Method End: onPlayerTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V
+   Method Start: getInfo()Ljava/lang/String;
+      @|com\anonymous\e\module\Fastmine.java|4829|4836|getInfo|method|com.anonymous.e.module.Fastmine|getInfo|()Ljava/lang/String;
+      @|com\anonymous\e\module\Fastmine.java|4822|4828|String|class|java.lang.String
+      @|com\anonymous\e\module\Fastmine.java|4860|4870|multiplier|field|com.anonymous.e.module.Fastmine|multiplier
+      @|com\anonymous\e\module\Fastmine.java|4871|4879|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\module\Fastmine.java|4891|4897|String|class|java.lang.String
+      @|com\anonymous\e\module\Fastmine.java|4946|4952|String|class|java.lang.String
+      @|com\anonymous\e\module\Fastmine.java|4953|4960|valueOf|method|java.lang.String|valueOf|(D)Ljava/lang/String;
+      @|com\anonymous\e\module\Fastmine.java|4986|4996|multiplier|field|com.anonymous.e.module.Fastmine|multiplier
+      @|com\anonymous\e\module\Fastmine.java|4997|5006|getSuffix|method|com.anonymous.e.module.setting.impl.SliderSetting|getSuffix|()Ljava/lang/String;
+   Method End: getInfo()Ljava/lang/String;
+Class End  : com.anonymous.e.module.Fastmine
+endProcessing com\anonymous\e\module\Fastmine.java
+
+processing com\anonymous\e\module\setting\Setting.java
+@|com\anonymous\e\module\setting\Setting.java|8|38|com.anonymous.e.module.setting|package|com.anonymous.e.module.setting|(file)
+Class Start: com.anonymous.e.module.setting.Setting
+   @|com\anonymous\e\module\setting\Setting.java|85|91|String|class|java.lang.String
+   @|com\anonymous\e\module\setting\Setting.java|92|96|name|field|com.anonymous.e.module.setting.Setting|name|
+   @|com\anonymous\e\module\setting\Setting.java|117|124|visible|field|com.anonymous.e.module.setting.Setting|visible|
+   Method Start: Setting(Ljava/lang/String;)V
+      @|com\anonymous\e\module\setting\Setting.java|145|152|Setting|method|com.anonymous.e.module.setting.Setting|Setting|(Ljava/lang/String;)V
+      @|com\anonymous\e\module\setting\Setting.java|153|159|String|class|java.lang.String
+      @|com\anonymous\e\module\setting\Setting.java|160|164|name|param|com.anonymous.e.module.setting.Setting|Setting|(Ljava/lang/String;)V|name|0
+      @|com\anonymous\e\module\setting\Setting.java|181|185|name|field|com.anonymous.e.module.setting.Setting|name
+      @|com\anonymous\e\module\setting\Setting.java|188|192|name|param|com.anonymous.e.module.setting.Setting|Setting|(Ljava/lang/String;)V|name|0
+   Method End: Setting(Ljava/lang/String;)V
+   Method Start: getName()Ljava/lang/String;
+      @|com\anonymous\e\module\setting\Setting.java|219|226|getName|method|com.anonymous.e.module.setting.Setting|getName|()Ljava/lang/String;
+      @|com\anonymous\e\module\setting\Setting.java|212|218|String|class|java.lang.String
+      @|com\anonymous\e\module\setting\Setting.java|251|255|name|field|com.anonymous.e.module.setting.Setting|name
+   Method End: getName()Ljava/lang/String;
+Class End  : com.anonymous.e.module.setting.Setting
+endProcessing com\anonymous\e\module\setting\Setting.java
+
+processing com\anonymous\e\module\setting\impl\ButtonSetting.java
+@|com\anonymous\e\module\setting\impl\ButtonSetting.java|8|43|com.anonymous.e.module.setting.impl|package|com.anonymous.e.module.setting.impl|(file)
+Class Start: com.anonymous.e.module.setting.impl.ButtonSetting
+   @|com\anonymous\e\module\setting\impl\ButtonSetting.java|152|158|String|class|java.lang.String
+   @|com\anonymous\e\module\setting\impl\ButtonSetting.java|159|163|name|field|com.anonymous.e.module.setting.impl.ButtonSetting|name|
+   @|com\anonymous\e\module\setting\impl\ButtonSetting.java|185|194|isEnabled|field|com.anonymous.e.module.setting.impl.ButtonSetting|isEnabled|
+   Method Start: ButtonSetting(Ljava/lang/String;Z)V
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|208|221|ButtonSetting|method|com.anonymous.e.module.setting.impl.ButtonSetting|ButtonSetting|(Ljava/lang/String;Z)V
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|222|228|String|class|java.lang.String
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|229|233|name|param|com.anonymous.e.module.setting.impl.ButtonSetting|ButtonSetting|(Ljava/lang/String;Z)V|name|0
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|243|252|isEnabled|param|com.anonymous.e.module.setting.impl.ButtonSetting|ButtonSetting|(Ljava/lang/String;Z)V|isEnabled|1
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|270|274|name|param|com.anonymous.e.module.setting.impl.ButtonSetting|ButtonSetting|(Ljava/lang/String;Z)V|name|0
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|290|294|name|field|com.anonymous.e.module.setting.impl.ButtonSetting|name
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|297|301|name|param|com.anonymous.e.module.setting.impl.ButtonSetting|ButtonSetting|(Ljava/lang/String;Z)V|name|0
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|316|325|isEnabled|field|com.anonymous.e.module.setting.impl.ButtonSetting|isEnabled
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|328|337|isEnabled|param|com.anonymous.e.module.setting.impl.ButtonSetting|ButtonSetting|(Ljava/lang/String;Z)V|isEnabled|1
+   Method End: ButtonSetting(Ljava/lang/String;Z)V
+   Method Start: getName()Ljava/lang/String;
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|378|385|getName|method|com.anonymous.e.module.setting.Setting|getName|()Ljava/lang/String;
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|371|377|String|class|java.lang.String
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|410|414|name|field|com.anonymous.e.module.setting.impl.ButtonSetting|name
+   Method End: getName()Ljava/lang/String;
+   Method Start: isToggled()Z
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|442|451|isToggled|method|com.anonymous.e.module.setting.impl.ButtonSetting|isToggled|()Z
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|476|485|isEnabled|field|com.anonymous.e.module.setting.impl.ButtonSetting|isEnabled
+   Method End: isToggled()Z
+   Method Start: toggle()V
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|510|516|toggle|method|com.anonymous.e.module.setting.impl.ButtonSetting|toggle|()V
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|534|543|isEnabled|field|com.anonymous.e.module.setting.impl.ButtonSetting|isEnabled
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|552|561|isEnabled|field|com.anonymous.e.module.setting.impl.ButtonSetting|isEnabled
+   Method End: toggle()V
+   Method Start: enable()V
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|586|592|enable|method|com.anonymous.e.module.setting.impl.ButtonSetting|enable|()V
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|610|619|isEnabled|field|com.anonymous.e.module.setting.impl.ButtonSetting|isEnabled
+   Method End: enable()V
+   Method Start: disable()V
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|651|658|disable|method|com.anonymous.e.module.setting.impl.ButtonSetting|disable|()V
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|676|685|isEnabled|field|com.anonymous.e.module.setting.impl.ButtonSetting|isEnabled
+   Method End: disable()V
+   Method Start: setEnabled(Z)V
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|718|728|setEnabled|method|com.anonymous.e.module.setting.impl.ButtonSetting|setEnabled|(Z)V
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|737|738|b|param|com.anonymous.e.module.setting.impl.ButtonSetting|setEnabled|(Z)V|b|0
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|755|764|isEnabled|field|com.anonymous.e.module.setting.impl.ButtonSetting|isEnabled
+      @|com\anonymous\e\module\setting\impl\ButtonSetting.java|767|768|b|param|com.anonymous.e.module.setting.impl.ButtonSetting|setEnabled|(Z)V|b|0
+   Method End: setEnabled(Z)V
+Class End  : com.anonymous.e.module.setting.impl.ButtonSetting
+endProcessing com\anonymous\e\module\setting\impl\ButtonSetting.java
+
+processing com\anonymous\e\module\setting\impl\SliderSetting.java
+@|com\anonymous\e\module\setting\impl\SliderSetting.java|8|43|com.anonymous.e.module.setting.impl|package|com.anonymous.e.module.setting.impl|(file)
+Class Start: com.anonymous.e.module.setting.impl.SliderSetting
+   @|com\anonymous\e\module\setting\impl\SliderSetting.java|213|219|String|class|java.lang.String
+   @|com\anonymous\e\module\setting\impl\SliderSetting.java|220|231|settingName|field|com.anonymous.e.module.setting.impl.SliderSetting|settingName|
+   @|com\anonymous\e\module\setting\impl\SliderSetting.java|245|251|String|class|java.lang.String
+   @|com\anonymous\e\module\setting\impl\SliderSetting.java|254|261|options|field|com.anonymous.e.module.setting.impl.SliderSetting|options|
+   @|com\anonymous\e\module\setting\impl\SliderSetting.java|282|294|defaultValue|field|com.anonymous.e.module.setting.impl.SliderSetting|defaultValue|
+   @|com\anonymous\e\module\setting\impl\SliderSetting.java|315|318|max|field|com.anonymous.e.module.setting.impl.SliderSetting|max|
+   @|com\anonymous\e\module\setting\impl\SliderSetting.java|339|342|min|field|com.anonymous.e.module.setting.impl.SliderSetting|min|
+   @|com\anonymous\e\module\setting\impl\SliderSetting.java|363|372|intervals|field|com.anonymous.e.module.setting.impl.SliderSetting|intervals|
+   @|com\anonymous\e\module\setting\impl\SliderSetting.java|393|401|isString|field|com.anonymous.e.module.setting.impl.SliderSetting|isString|
+   @|com\anonymous\e\module\setting\impl\SliderSetting.java|415|421|String|class|java.lang.String
+   @|com\anonymous\e\module\setting\impl\SliderSetting.java|422|428|suffix|field|com.anonymous.e.module.setting.impl.SliderSetting|suffix|
+   Method Start: SliderSetting(Ljava/lang/String;Ljava/lang/String;DDDD)V
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|442|455|SliderSetting|method|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|456|462|String|class|java.lang.String
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|463|474|settingName|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|settingName|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|476|482|String|class|java.lang.String
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|483|489|suffix|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|suffix|1
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|498|510|defaultValue|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|defaultValue|2
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|519|522|min|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|min|3
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|531|534|max|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|max|4
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|543|552|intervals|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|intervals|5
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|570|581|settingName|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|settingName|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|597|603|suffix|field|com.anonymous.e.module.setting.impl.SliderSetting|suffix
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|606|612|suffix|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|suffix|1
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|627|638|settingName|field|com.anonymous.e.module.setting.impl.SliderSetting|settingName
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|641|652|settingName|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|settingName|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|667|674|options|field|com.anonymous.e.module.setting.impl.SliderSetting|options
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|696|708|defaultValue|field|com.anonymous.e.module.setting.impl.SliderSetting|defaultValue
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|711|723|defaultValue|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|defaultValue|2
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|738|741|min|field|com.anonymous.e.module.setting.impl.SliderSetting|min
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|744|747|min|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|min|3
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|762|765|max|field|com.anonymous.e.module.setting.impl.SliderSetting|max
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|768|771|max|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|max|4
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|786|795|intervals|field|com.anonymous.e.module.setting.impl.SliderSetting|intervals
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|798|807|intervals|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;Ljava/lang/String;DDDD)V|intervals|5
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|822|830|isString|field|com.anonymous.e.module.setting.impl.SliderSetting|isString
+   Method End: SliderSetting(Ljava/lang/String;Ljava/lang/String;DDDD)V
+   Method Start: SliderSetting(Ljava/lang/String;DDDD)V
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|858|871|SliderSetting|method|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;DDDD)V
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|872|878|String|class|java.lang.String
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|879|890|settingName|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;DDDD)V|settingName|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|899|911|defaultValue|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;DDDD)V|defaultValue|1
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|920|923|min|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;DDDD)V|min|2
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|932|935|max|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;DDDD)V|max|3
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|944|953|intervals|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;DDDD)V|intervals|4
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|970|981|settingName|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;DDDD)V|settingName|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|987|999|defaultValue|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;DDDD)V|defaultValue|1
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1001|1004|min|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;DDDD)V|min|2
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1006|1009|max|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;DDDD)V|max|3
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1011|1020|intervals|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;DDDD)V|intervals|4
+   Method End: SliderSetting(Ljava/lang/String;DDDD)V
+   Method Start: SliderSetting(Ljava/lang/String;I[Ljava/lang/String;)V
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1041|1054|SliderSetting|method|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;I[Ljava/lang/String;)V
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1055|1061|String|class|java.lang.String
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1062|1073|settingName|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;I[Ljava/lang/String;)V|settingName|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1079|1091|defaultValue|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;I[Ljava/lang/String;)V|defaultValue|1
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1093|1099|String|class|java.lang.String
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1102|1109|options|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;I[Ljava/lang/String;)V|options|2
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1127|1138|settingName|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;I[Ljava/lang/String;)V|settingName|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1154|1160|suffix|field|com.anonymous.e.module.setting.impl.SliderSetting|suffix
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1180|1191|settingName|field|com.anonymous.e.module.setting.impl.SliderSetting|settingName
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1194|1205|settingName|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;I[Ljava/lang/String;)V|settingName|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1220|1227|options|field|com.anonymous.e.module.setting.impl.SliderSetting|options
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1230|1237|options|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;I[Ljava/lang/String;)V|options|2
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1252|1264|defaultValue|field|com.anonymous.e.module.setting.impl.SliderSetting|defaultValue
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1276|1288|defaultValue|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;I[Ljava/lang/String;)V|defaultValue|1
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1303|1306|min|field|com.anonymous.e.module.setting.impl.SliderSetting|min
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1327|1330|max|field|com.anonymous.e.module.setting.impl.SliderSetting|max
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1343|1350|options|param|com.anonymous.e.module.setting.impl.SliderSetting|SliderSetting|(Ljava/lang/String;I[Ljava/lang/String;)V|options|2
+      Field: Array Length, skipping
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1377|1386|intervals|field|com.anonymous.e.module.setting.impl.SliderSetting|intervals
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1407|1415|isString|field|com.anonymous.e.module.setting.impl.SliderSetting|isString
+   Method End: SliderSetting(Ljava/lang/String;I[Ljava/lang/String;)V
+   Method Start: getSuffix()Ljava/lang/String;
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1449|1458|getSuffix|method|com.anonymous.e.module.setting.impl.SliderSetting|getSuffix|()Ljava/lang/String;
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1442|1448|String|class|java.lang.String
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1483|1489|suffix|field|com.anonymous.e.module.setting.impl.SliderSetting|suffix
+   Method End: getSuffix()Ljava/lang/String;
+   Method Start: getOptions()[Ljava/lang/String;
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1518|1528|getOptions|method|com.anonymous.e.module.setting.impl.SliderSetting|getOptions|()[Ljava/lang/String;
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1509|1515|String|class|java.lang.String
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1553|1560|options|field|com.anonymous.e.module.setting.impl.SliderSetting|options
+   Method End: getOptions()[Ljava/lang/String;
+   Method Start: getName()Ljava/lang/String;
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1601|1608|getName|method|com.anonymous.e.module.setting.Setting|getName|()Ljava/lang/String;
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1594|1600|String|class|java.lang.String
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1633|1644|settingName|field|com.anonymous.e.module.setting.impl.SliderSetting|settingName
+   Method End: getName()Ljava/lang/String;
+   Method Start: getInput()D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1671|1679|getInput|method|com.anonymous.e.module.setting.impl.SliderSetting|getInput|()D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1699|1714|roundToInterval|method|com.anonymous.e.module.setting.impl.SliderSetting|roundToInterval|(DI)D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1720|1732|defaultValue|field|com.anonymous.e.module.setting.impl.SliderSetting|defaultValue
+   Method End: getInput()D
+   Method Start: getMin()D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1763|1769|getMin|method|com.anonymous.e.module.setting.impl.SliderSetting|getMin|()D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1794|1797|min|field|com.anonymous.e.module.setting.impl.SliderSetting|min
+   Method End: getMin()D
+   Method Start: getMax()D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1824|1830|getMax|method|com.anonymous.e.module.setting.impl.SliderSetting|getMax|()D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1855|1858|max|field|com.anonymous.e.module.setting.impl.SliderSetting|max
+   Method End: getMax()D
+   Method Start: setValue(D)D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1885|1893|setValue|method|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1901|1909|newValue|param|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D|newValue|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1921|1929|newValue|param|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D|newValue|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1932|1936|Math|class|java.lang.Math
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1937|1940|max|method|java.lang.Math|max|(DD)D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1946|1949|min|field|com.anonymous.e.module.setting.impl.SliderSetting|min
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1951|1959|newValue|param|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D|newValue|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1970|1978|newValue|param|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D|newValue|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1981|1985|Math|class|java.lang.Math
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1986|1989|min|method|java.lang.Math|min|(DD)D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|1995|1998|max|field|com.anonymous.e.module.setting.impl.SliderSetting|max
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2000|2008|newValue|param|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D|newValue|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2019|2027|newValue|param|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D|newValue|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2030|2034|Math|class|java.lang.Math
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2035|2040|round|method|java.lang.Math|round|(D)J
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2041|2049|newValue|param|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D|newValue|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2064|2073|intervals|field|com.anonymous.e.module.setting.impl.SliderSetting|intervals
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2090|2099|intervals|field|com.anonymous.e.module.setting.impl.SliderSetting|intervals
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2122|2134|defaultValue|field|com.anonymous.e.module.setting.impl.SliderSetting|defaultValue
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2137|2145|newValue|param|com.anonymous.e.module.setting.impl.SliderSetting|setValue|(D)D|newValue|0
+   Method End: setValue(D)D
+   Method Start: setValueRaw(D)V
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2170|2181|setValueRaw|method|com.anonymous.e.module.setting.impl.SliderSetting|setValueRaw|(D)V
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2189|2190|n|param|com.anonymous.e.module.setting.impl.SliderSetting|setValueRaw|(D)V|n|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2207|2219|defaultValue|field|com.anonymous.e.module.setting.impl.SliderSetting|defaultValue
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2222|2223|n|param|com.anonymous.e.module.setting.impl.SliderSetting|setValueRaw|(D)V|n|0
+   Method End: setValueRaw(D)V
+   Method Start: roundToInterval(DI)D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2257|2272|roundToInterval|method|com.anonymous.e.module.setting.impl.SliderSetting|roundToInterval|(DI)D
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2280|2281|v|param|com.anonymous.e.module.setting.impl.SliderSetting|roundToInterval|(DI)D|v|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2287|2288|p|param|com.anonymous.e.module.setting.impl.SliderSetting|roundToInterval|(DI)D|p|1
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2304|2305|p|param|com.anonymous.e.module.setting.impl.SliderSetting|roundToInterval|(DI)D|p|1
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2331|2341|BigDecimal|class|java.math.BigDecimal
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2351|2361|BigDecimal|class|java.math.BigDecimal
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2362|2363|v|param|com.anonymous.e.module.setting.impl.SliderSetting|roundToInterval|(DI)D|v|0
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2382|2390|setScale|method|java.math.BigDecimal|setScale|(ILjava/math/RoundingMode;)Ljava/math/BigDecimal;
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2391|2392|p|param|com.anonymous.e.module.setting.impl.SliderSetting|roundToInterval|(DI)D|p|1
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2394|2406|RoundingMode|class|java.math.RoundingMode
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2407|2414|HALF_UP|field|java.math.RoundingMode|HALF_UP
+      @|com\anonymous\e\module\setting\impl\SliderSetting.java|2435|2446|doubleValue|method|java.lang.Number|doubleValue|()D
+   Method End: roundToInterval(DI)D
+Class End  : com.anonymous.e.module.setting.impl.SliderSetting
+endProcessing com\anonymous\e\module\setting\impl\SliderSetting.java
+

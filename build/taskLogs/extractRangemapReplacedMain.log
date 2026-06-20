@@ -1,0 +1,11 @@
+Symbol range map extraction starting
+Processing 9 files
+processing com\anonymous\e\BlockUtils.java
+processing com\anonymous\e\ConfigUtils.java
+processing com\anonymous\e\ICommand.java
+processing com\anonymous\e\e.java
+processing com\anonymous\e\mixin\IAccessorPlayerControllerMP.java
+processing com\anonymous\e\module\Fastmine.java
+processing com\anonymous\e\module\setting\Setting.java
+processing com\anonymous\e\module\setting\impl\ButtonSetting.java
+processing com\anonymous\e\module\setting\impl\SliderSetting.java
