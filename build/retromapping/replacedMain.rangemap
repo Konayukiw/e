@@ -666,37 +666,16 @@ Class Start: com.anonymous.e.agent.AgentBootstrap
       @|com\anonymous\e\agent\AgentBootstrap.java|269|275|System|class|java.lang.System
       @|com\anonymous\e\agent\AgentBootstrap.java|276|279|out|field|java.lang.System|out
       @|com\anonymous\e\agent\AgentBootstrap.java|280|287|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\AgentBootstrap.java|368|382|AgentBootstrap|class|com.anonymous.e.agent.AgentBootstrap
-      @|com\anonymous\e\agent\AgentBootstrap.java|389|403|getClassLoader|method|java.lang.Class|getClassLoader|()Ljava/lang/ClassLoader;
-      @|com\anonymous\e\agent\AgentBootstrap.java|417|423|System|class|java.lang.System
-      @|com\anonymous\e\agent\AgentBootstrap.java|424|427|out|field|java.lang.System|out
-      @|com\anonymous\e\agent\AgentBootstrap.java|428|435|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\AgentBootstrap.java|503|504|e|class|com.anonymous.e.e
-      @|com\anonymous\e\agent\AgentBootstrap.java|511|525|getClassLoader|method|java.lang.Class|getClassLoader|()Ljava/lang/ClassLoader;
-      @|com\anonymous\e\agent\AgentBootstrap.java|543|552|scheduled|field|com.anonymous.e.agent.AgentBootstrap|scheduled
-      @|com\anonymous\e\agent\AgentBootstrap.java|556|557|e|class|com.anonymous.e.e
-      @|com\anonymous\e\agent\AgentBootstrap.java|558|571|isInitialized|method|com.anonymous.e.e|isInitialized|()Z
-      @|com\anonymous\e\agent\AgentBootstrap.java|615|624|scheduled|field|com.anonymous.e.agent.AgentBootstrap|scheduled
-      @|com\anonymous\e\agent\AgentBootstrap.java|648|657|Minecraft|class|net.minecraft.client.Minecraft
-      @|com\anonymous\e\agent\AgentBootstrap.java|670|679|Minecraft|class|net.minecraft.client.Minecraft
-      @|com\anonymous\e\agent\AgentBootstrap.java|680|692|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
-      @|com\anonymous\e\agent\AgentBootstrap.java|704|712|Runnable|class|java.lang.Runnable
-      @|com\anonymous\e\agent\AgentBootstrap.java|731|739|Runnable|class|java.lang.Runnable
-      Anon Class Start: com.anonymous.e.agent.AgentBootstrap$1
-         Method Start: run()V
-            @|com\anonymous\e\agent\AgentBootstrap.java|790|793|run|method|java.lang.Runnable|run|()V
-            @|com\anonymous\e\agent\AgentBootstrap.java|840|841|e|class|com.anonymous.e.e
-            @|com\anonymous\e\agent\AgentBootstrap.java|842|854|initInjected|method|com.anonymous.e.e|initInjected|()V
-            @|com\anonymous\e\agent\AgentBootstrap.java|883|892|Throwable|class|java.lang.Throwable
-            @|com\anonymous\e\agent\AgentBootstrap.java|918|924|System|class|java.lang.System
-            @|com\anonymous\e\agent\AgentBootstrap.java|925|928|err|field|java.lang.System|err
-            @|com\anonymous\e\agent\AgentBootstrap.java|929|936|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-            @|com\anonymous\e\agent\AgentBootstrap.java|990|1005|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
-         Method End: run()V
-      Anon Class End: com.anonymous.e.agent.AgentBootstrap$1
-      @|com\anonymous\e\agent\AgentBootstrap.java|1075|1103|isCallingFromMinecraftThread|method|net.minecraft.util.IThreadListener|isCallingFromMinecraftThread|()Z
-      @|com\anonymous\e\agent\AgentBootstrap.java|1133|1136|run|method|java.lang.Runnable|run|()V
-      @|com\anonymous\e\agent\AgentBootstrap.java|1179|1195|addScheduledTask|method|net.minecraft.util.IThreadListener|addScheduledTask|(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+      @|com\anonymous\e\agent\AgentBootstrap.java|354|359|Class|class|java.lang.Class
+      @|com\anonymous\e\agent\AgentBootstrap.java|367|372|Class|class|java.lang.Class
+      @|com\anonymous\e\agent\AgentBootstrap.java|373|380|forName|method|java.lang.Class|forName|(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+      @|com\anonymous\e\agent\AgentBootstrap.java|483|497|AgentBootstrap|class|com.anonymous.e.agent.AgentBootstrap
+      @|com\anonymous\e\agent\AgentBootstrap.java|504|518|getClassLoader|method|java.lang.Class|getClassLoader|()Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\AgentBootstrap.java|548|554|System|class|java.lang.System
+      @|com\anonymous\e\agent\AgentBootstrap.java|555|558|out|field|java.lang.System|out
+      @|com\anonymous\e\agent\AgentBootstrap.java|559|566|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\agent\AgentBootstrap.java|604|613|Throwable|class|java.lang.Throwable
+      @|com\anonymous\e\agent\AgentBootstrap.java|633|648|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
    Method End: install()V
 Class End  : com.anonymous.e.agent.AgentBootstrap
 endProcessing com\anonymous\e\agent\AgentBootstrap.java

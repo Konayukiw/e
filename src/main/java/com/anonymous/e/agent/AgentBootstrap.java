@@ -12,36 +12,17 @@ public final class AgentBootstrap {
 
     public static synchronized void install() {
 
-        System.out.println(
-                "[e-agent] AgentBootstrap loader = "
-                        + AgentBootstrap.class.getClassLoader());
+        System.out.println("===== BUILD 2026-06-20 15:58 =====");
 
-        System.out.println(
-                "[e-agent] e loader = "
-                        + e.class.getClassLoader());
-
-        if (scheduled || e.isInitialized()) {
-            return;
-        }
-        scheduled = true;
-
-        final Minecraft minecraft = Minecraft.getMinecraft();
-        Runnable initializer = new Runnable() {
-            @Override
-            public void run() {
-                try {
-                    e.initInjected();
-                } catch (Throwable t) {
-                    System.err.println("[e-agent] Bootstrap failed");
-                    t.printStackTrace();
-                }
-            }
-        };
-
-        if (minecraft.isCallingFromMinecraftThread()) {
-            initializer.run();
-        } else {
-            minecraft.addScheduledTask(initializer);
+        try {
+            Class<?> c = Class.forName(
+                    "net.minecraft.command.ICommand",
+                    false,
+                    AgentBootstrap.class.getClassLoader()
+            );
+            System.out.println("ICommand = " + c);
+        } catch (Throwable t) {
+            t.printStackTrace();
         }
     }
 }
