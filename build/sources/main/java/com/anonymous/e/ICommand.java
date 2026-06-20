@@ -1,6 +1,6 @@
 package com.anonymous.e;
 
-import com.anonymous.e.module.Fastmine;
+import com.anonymous.e.module.eMod;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
@@ -13,10 +13,10 @@ public class ICommand extends CommandBase {
 
     private static final String PREFIX = "§7[§de§7] ";
 
-    private final Fastmine fm;
+    private final eMod fm;
     private final ConfigUtils cfg;
 
-    public ICommand(Fastmine fm, ConfigUtils cfg) {
+    public ICommand(eMod fm, ConfigUtils cfg) {
         this.fm  = fm;
         this.cfg = cfg;
     }
@@ -56,8 +56,8 @@ public class ICommand extends CommandBase {
         switch (args[0].toLowerCase()) {
 
             case "toggle":
-                if (fm.isEnabled()) { fm.disable(); send(sender, PREFIX + "Fastmine §cDISABLED"); }
-                else                { fm.enable();  send(sender, PREFIX + "Fastmine §aENABLED");  }
+                if (fm.isEnabled()) { fm.disable(); send(sender, "eMod §cDISABLED"); }
+                else                { fm.enable();  send(sender, "eMod §aENABLED");  }
                 cfg.save(fm);
                 break;
 
@@ -67,7 +67,7 @@ public class ICommand extends CommandBase {
 
             case "save":
                 cfg.save(fm);
-                send(sender, PREFIX + "Config saved to §econfigsé/fm.json");
+                send(sender,  "Config saved to §econfigs/fm.json");
                 break;
 
             case "help":
@@ -75,13 +75,13 @@ public class ICommand extends CommandBase {
                 break;
 
             default:
-                send(sender, PREFIX + "Unknown command. Use §e/fm help");
+                send(sender, "Unknown command. Use §e/fm help");
         }
     }
 
     private void handleSet(ICommandSender sender, String[] args) {
         if (args.length < 3) {
-            send(sender, PREFIX + "Usage: /fm set <key> <value>");
+            send(sender, "Usage: /fm set <Key> <Value>");
             return;
         }
         String key   = args[1].toLowerCase();
@@ -93,7 +93,7 @@ public class ICommand extends CommandBase {
                 double v = parseDouble(sender, value, fm.delay.getMin(), fm.delay.getMax());
                 if (Double.isNaN(v)) return;
                 fm.delay.setValue(v);
-                send(sender, PREFIX + "Break delay → §f" + (int) fm.delay.getInput() + " tick(s)");
+                send(sender, "Break delay → §f" + (int) fm.delay.getInput() + " ticks");
                 cfg.save(fm);
                 break;
             }
@@ -113,7 +113,7 @@ public class ICommand extends CommandBase {
                 if (idx < 0) return;
                 fm.mode.setValue(idx);
                 String modeName = fm.mode.getOptions()[idx];
-                send(sender, PREFIX + "Mode → §f" + modeName);
+                send(sender, "Mode → §f" + modeName);
                 cfg.save(fm);
                 break;
             }
@@ -123,7 +123,7 @@ public class ICommand extends CommandBase {
                 boolean on = parseBool(sender, value);
                 if (on)  fm.creativeDisable.enable();
                 else     fm.creativeDisable.disable();
-                send(sender, PREFIX + "Disable in creative → §f" + (fm.creativeDisable.isToggled() ? "ON" : "OFF"));
+                send(sender,  "Disable in creative → §f" + (fm.creativeDisable.isToggled() ? "ON" : "OFF"));
                 cfg.save(fm);
                 break;
             }
@@ -136,22 +136,22 @@ public class ICommand extends CommandBase {
     private void printStatus(ICommandSender sender) {
         String enabledStr = fm.isEnabled() ? "§aON" : "§cOFF";
         String modeStr    = fm.mode.getOptions()[(int) fm.mode.getInput()];
-        send(sender, PREFIX + "Fastmine: " + enabledStr);
-        send(sender, PREFIX + "  delay       = §e" + (int) fm.delay.getInput() + "§f tick(s)  §7(vanilla: 5)");
-        send(sender, PREFIX + "  multiplier  = §e" + fm.multiplier.getInput() + "§fx  §7(vanilla: 1.0)");
-        send(sender, PREFIX + "  mode        = §e" + modeStr);
-        send(sender, PREFIX + "  creative    = §e" + (fm.creativeDisable.isToggled() ? "disable" : "allow"));
-        send(sender, PREFIX + "Type §e/fm help §7for commands.");
+        send(sender,  "eMod: " + enabledStr);
+        send(sender,  "Delay = §e" + (int) fm.delay.getInput() + "§f tick(s)  §7(vanilla: 5)");
+        send(sender,  "Speed = §e" + fm.multiplier.getInput() + "§fx  §7(vanilla: 1.0)");
+        send(sender,  "Mode  = §e" + modeStr);
+        send(sender,  "While Creative= §e" + (fm.creativeDisable.isToggled() ? "disable" : "allow"));
+        send(sender,  "Type §e/fm help §7for commands.");
     }
 
     private void sendHelp(ICommandSender sender) {
-        send(sender, PREFIX + "§e/fm §7— show current settings");
-        send(sender, PREFIX + "§e/fm toggle §7— enable / disable");
-        send(sender, PREFIX + "§e/fm set delay §f<0-5> §7— break delay ticks");
-        send(sender, PREFIX + "§e/fm set multiplier §f<1.0-2.0> §7— speed multiplier");
-        send(sender, PREFIX + "§e/fm set mode §f<pre|post|inc> §7— algorithm");
-        send(sender, PREFIX + "§e/fm set creative §f<on|off> §7— disable in creative");
-        send(sender, PREFIX + "§e/fm save §7— force-save config to disk");
+        send(sender,  "§e/fm §7— Show current settings");
+        send(sender,  "§e/fm toggle §7— Enable / Disable");
+        send(sender,  "§e/fm set delay §f<0-5> §7— Break delay ticks");
+        send(sender,  "§e/fm set multiplier §f<1.0-2.0> §7— Mining speed multiplier");
+        send(sender,  "§e/fm set mode §f<Pre|Post|Increment> §7— Mining mode");
+        send(sender,  "§e/fm set creative §f<On|Off> §7— Disable eMod in creative");
+        send(sender,  "§e/fm save §7— Force-save config to disk");
     }
 
     private void send(ICommandSender sender, String msg) {
@@ -162,12 +162,12 @@ public class ICommand extends CommandBase {
         try {
             double v = Double.parseDouble(s);
             if (v < min || v > max) {
-                send(sender, PREFIX + "Value must be between " + min + " and " + max);
+                send(sender,  "Value must be between " + min + " and " + max);
                 return Double.NaN;
             }
             return v;
         } catch (NumberFormatException e) {
-            send(sender, PREFIX + "Not a number: §e" + s);
+            send(sender, "Not a number: §e" + s);
             return Double.NaN;
         }
     }
@@ -179,7 +179,7 @@ public class ICommand extends CommandBase {
             case "inc":
             case "increment": return 2;
             default:
-                send(sender, PREFIX + "Unknown mode §e" + s + "§7. Use: pre / post / inc");
+                send(sender,  "Unknown mode §e" + s + "§7. Use: pre / post / inc");
                 return -1;
         }
     }

@@ -1,6 +1,6 @@
 package com.anonymous.e;
 
-import com.anonymous.e.module.Fastmine;
+import com.anonymous.e.module.eMod;
 import net.minecraftforge.client.ClientCommandHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -9,20 +9,29 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 @Mod(
         modid = "Xk7mQ2pR",
         name = "e",
-        version = "1.1",
+        version = "1.2",
         acceptedMinecraftVersions = "[1.8.9]"
 )
 public class e {
 
-    public static Fastmine fastMine;
+    public static eMod fastMine;
     public static ConfigUtils configUtils;
+    private static boolean initialized;
 
     public e() {
     }
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
-        fastMine      = new Fastmine();
+        initInjected();
+    }
+
+    public static synchronized void initInjected() {
+        if (initialized) {
+            return;
+        }
+
+        fastMine      = new eMod();
         configUtils = new ConfigUtils();
 
         configUtils.load(fastMine);
@@ -35,5 +44,12 @@ public class e {
         ClientCommandHandler.instance.registerCommand(
                 new ICommand(fastMine, configUtils)
         );
+
+        initialized = true;
+        System.out.println("[e] eMod initialized");
+    }
+
+    public static synchronized boolean isInitialized() {
+        return initialized;
     }
 }

@@ -1,7 +1,7 @@
 package com.anonymous.e.module;
 
 import com.anonymous.e.BlockUtils;
-import com.anonymous.e.mixin.IAccessorPlayerControllerMP;
+import com.anonymous.e.PlayerControllerAccessor;
 import com.anonymous.e.module.setting.impl.ButtonSetting;
 import com.anonymous.e.module.setting.impl.SliderSetting;
 import net.minecraft.client.Minecraft;
@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.Phase;
 import org.lwjgl.input.Mouse;
 
-public class Fastmine {
+public class eMod {
 
     private static final Minecraft mc = Minecraft.getMinecraft();
 
@@ -23,7 +23,7 @@ public class Fastmine {
     private boolean enabled = false;
     private float lastCurBlockDamageMP = 0.0F;
 
-    public Fastmine() {}
+    public eMod() {}
 
     public void enable() {
         if (!enabled) {
@@ -49,7 +49,7 @@ public class Fastmine {
         if (!mc.inGameHasFocus || !BlockUtils.nullCheck()) return;
         if (creativeDisable.isToggled() && mc.thePlayer.capabilities.isCreativeMode) return;
 
-        IAccessorPlayerControllerMP controller = (IAccessorPlayerControllerMP) mc.playerController;
+        PlayerControllerAccessor controller = PlayerControllerAccessor.of(mc.playerController);
 
         int delayTarget = (int) delay.getInput();
         if (delayTarget < 5) {

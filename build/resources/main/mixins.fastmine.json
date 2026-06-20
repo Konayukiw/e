@@ -1,9 +1,0 @@
-{
-  "required": true,
-  "package": "com.anonymous.e.mixin",
-  "refmap": "mixins.fastmine.refmap.json",
-  "compatibilityLevel": "JAVA_8",
-  "mixins": [
-    "IAccessorPlayerControllerMP"
-  ]
-}

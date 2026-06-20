@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
-TweakClass: org.spongepowered.asm.launch.MixinTweaker
-MixinConfigs: mixins.fastmine.json
-FMLCorePluginContainsFMLMod: true
+Agent-Class: com.anonymous.e.agent.eAgent
+Premain-Class: com.anonymous.e.agent.eAgent
+Can-Redefine-Classes: false
+Can-Retransform-Classes: false
