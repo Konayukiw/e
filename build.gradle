@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 group   = 'com.anonymous.e'
 archivesBaseName = 'e'
-version = '1.2'
+version = '1.3'
 
 sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
@@ -37,8 +37,8 @@ repositories {
 jar {
     manifest {
         attributes(
-            'Agent-Class'                  : 'com.anonymous.e.agent.FastmineAgent',
-            'Premain-Class'                : 'com.anonymous.e.agent.FastmineAgent',
+            'Agent-Class'                  : 'com.anonymous.e.agent.eAgent',
+            'Premain-Class'                : 'com.anonymous.e.agent.eAgent',
             'Can-Redefine-Classes'         : 'false',
             'Can-Retransform-Classes'      : 'false',
             'ForceLoadAsMod'               : 'true'

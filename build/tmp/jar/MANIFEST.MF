@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
-Premain-Class: com.anonymous.e.agent.FastmineAgent
-Agent-Class: com.anonymous.e.agent.FastmineAgent
+Premain-Class: com.anonymous.e.agent.eAgent
+Agent-Class: com.anonymous.e.agent.eAgent
 Can-Redefine-Classes: false
 Can-Retransform-Classes: false
 ForceLoadAsMod: true

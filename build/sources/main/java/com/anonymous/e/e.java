@@ -9,7 +9,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 @Mod(
         modid = "Xk7mQ2pR",
         name = "e",
-        version = "1.2",
+        version = "1.3",
         acceptedMinecraftVersions = "[1.8.9]"
 )
 public class e {
