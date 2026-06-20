@@ -19,13 +19,24 @@ public final class eAgent {
     }
 
     private static void attach(String agentArgs) {
+
         try {
+
             URL jarUrl = eAgent.class.getProtectionDomain()
                     .getCodeSource()
                     .getLocation();
+
             ClassLoader launchClassLoader = findLaunchClassLoader();
 
-            Method addUrl = launchClassLoader.getClass().getMethod("addURL", URL.class);
+            System.out.println("[e] eAgent loader      = "
+                    + eAgent.class.getClassLoader());
+
+            System.out.println("[e] launch loader      = "
+                    + launchClassLoader);
+
+            Method addUrl = launchClassLoader.getClass()
+                    .getMethod("addURL", URL.class);
+
             addUrl.invoke(launchClassLoader, jarUrl);
 
             Class<?> bootstrap = Class.forName(
@@ -33,11 +44,19 @@ public final class eAgent {
                     true,
                     launchClassLoader
             );
+
+            System.err.println(
+                    "[e-agent] bootstrap loader = "
+                            + bootstrap.getClassLoader());
+
+            System.err.println(
+                    "[e-agent] eAgent loader = "
+                            + eAgent.class.getClassLoader());
+
             bootstrap.getMethod("install").invoke(null);
 
-            System.out.println("[e-agent] Injected " + new File(jarUrl.toURI()).getName());
         } catch (Throwable t) {
-            System.err.println("[e-agent] Injection failed");
+            System.err.println("[e] Injection failed");
             t.printStackTrace();
         }
     }

@@ -11,6 +11,15 @@ public final class AgentBootstrap {
     }
 
     public static synchronized void install() {
+
+        System.out.println(
+                "[e-agent] AgentBootstrap loader = "
+                        + AgentBootstrap.class.getClassLoader());
+
+        System.out.println(
+                "[e-agent] e loader = "
+                        + e.class.getClassLoader());
+
         if (scheduled || e.isInitialized()) {
             return;
         }

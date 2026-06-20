@@ -33662,17 +33662,21 @@ Start Processing: com\anonymous\e\agent\AgentBootstrap.java
 [method, com/anonymous/e/agent/AgentBootstrap/AgentBootstrap, ()V]
 FOUND CONSTR method com/anonymous/e/agent/AgentBootstrap/AgentBootstrap ()V com/anonymous/e/agent/AgentBootstrap
 [method, com/anonymous/e/agent/AgentBootstrap/install, ()V]
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
+[method, java/lang/Class/getClassLoader, ()Ljava/lang/ClassLoader;]
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
+[method, java/lang/Class/getClassLoader, ()Ljava/lang/ClassLoader;]
 [method, com/anonymous/e/e/isInitialized, ()Z]
-Rename class net/minecraft/client/Minecraft[377,386]::Minecraft->Minecraft
-Rename class net/minecraft/client/Minecraft[399,408]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[409,421]::getMinecraft->func_71410_x
+Rename class net/minecraft/client/Minecraft[648,657]::Minecraft->Minecraft
+Rename class net/minecraft/client/Minecraft[670,679]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[680,692]::getMinecraft->func_71410_x
 [method, java/lang/Runnable/run, ()V]
 [method, com/anonymous/e/e/initInjected, ()V]
 [method, java/io/PrintStream/println, (Ljava/lang/String;)V]
 [method, java/lang/Throwable/printStackTrace, ()V]
-Rename method net/minecraft/util/IThreadListener/isCallingFromMinecraftThread ()Z[804,832]::isCallingFromMinecraftThread->func_152345_ab
+Rename method net/minecraft/util/IThreadListener/isCallingFromMinecraftThread ()Z[1075,1103]::isCallingFromMinecraftThread->func_152345_ab
 [method, java/lang/Runnable/run, ()V]
-Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[894,910]::addScheduledTask->func_152344_a
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[1165,1181]::addScheduledTask->func_152344_a
 Import: net.minecraft.client.Minecraft
 Adding 0 imports
 End  Processing: com\anonymous\e\agent\AgentBootstrap.java
@@ -33689,15 +33693,19 @@ FOUND CONSTR method com/anonymous/e/agent/eAgent/eAgent ()V com/anonymous/e/agen
 [method, java/security/ProtectionDomain/getCodeSource, ()Ljava/security/CodeSource;]
 [method, java/security/CodeSource/getLocation, ()Ljava/net/URL;]
 [method, com/anonymous/e/agent/eAgent/findLaunchClassLoader, ()Ljava/lang/ClassLoader;]
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
+[method, java/lang/Class/getClassLoader, ()Ljava/lang/ClassLoader;]
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
 [method, java/lang/Object/getClass, ()Ljava/lang/Class;]
 [method, java/lang/Class/getMethod, (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
 [method, java/lang/reflect/Method/invoke, (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
 [method, java/lang/Class/forName, (Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;]
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
+[method, java/lang/Class/getClassLoader, ()Ljava/lang/ClassLoader;]
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
+[method, java/lang/Class/getClassLoader, ()Ljava/lang/ClassLoader;]
 [method, java/lang/Class/getMethod, (Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;]
 [method, java/lang/reflect/Method/invoke, (Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;]
-[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
-[method, java/net/URL/toURI, ()Ljava/net/URI;]
-[method, java/io/File/getName, ()Ljava/lang/String;]
 [method, java/io/PrintStream/println, (Ljava/lang/String;)V]
 [method, java/lang/Throwable/printStackTrace, ()V]
 [method, com/anonymous/e/agent/eAgent/findLaunchClassLoader, ()Ljava/lang/ClassLoader;]
