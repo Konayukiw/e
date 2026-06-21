@@ -56,8 +56,8 @@ public class ICommand extends CommandBase {
         switch (args[0].toLowerCase()) {
 
             case "toggle":
-                if (fm.isEnabled()) { fm.disable(); send(sender, "eMod §cDISABLED"); }
-                else                { fm.enable();  send(sender, "eMod §aENABLED");  }
+                if (fm.isEnabled()) { fm.disable(); send(sender, "Fastmine §cDISABLED"); }
+                else                { fm.enable();  send(sender, "Fastmine §aENABLED");  }
                 cfg.save(fm);
                 break;
 
@@ -136,7 +136,7 @@ public class ICommand extends CommandBase {
     private void printStatus(ICommandSender sender) {
         String enabledStr = fm.isEnabled() ? "§aON" : "§cOFF";
         String modeStr    = fm.mode.getOptions()[(int) fm.mode.getInput()];
-        send(sender,  "eMod: " + enabledStr);
+        send(sender,  "Fastmine: " + enabledStr);
         send(sender,  "Delay = §e" + (int) fm.delay.getInput() + "§f tick(s)  §7(vanilla: 5)");
         send(sender,  "Speed = §e" + fm.multiplier.getInput() + "§fx  §7(vanilla: 1.0)");
         send(sender,  "Mode  = §e" + modeStr);

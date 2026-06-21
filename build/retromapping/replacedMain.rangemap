@@ -657,25 +657,56 @@ endProcessing com\anonymous\e\PlayerControllerAccessor.java
 processing com\anonymous\e\agent\AgentBootstrap.java
 @|com\anonymous\e\agent\AgentBootstrap.java|8|29|com.anonymous.e.agent|package|com.anonymous.e.agent|(file)
 Class Start: com.anonymous.e.agent.AgentBootstrap
-   @|com\anonymous\e\agent\AgentBootstrap.java|162|171|scheduled|field|com.anonymous.e.agent.AgentBootstrap|scheduled|
+   @|com\anonymous\e\agent\AgentBootstrap.java|171|180|scheduled|field|com.anonymous.e.agent.AgentBootstrap|scheduled|
+   @|com\anonymous\e\agent\AgentBootstrap.java|215|221|Object|class|java.lang.Object
+   @|com\anonymous\e\agent\AgentBootstrap.java|222|226|LOCK|field|com.anonymous.e.agent.AgentBootstrap|LOCK|
+   @|com\anonymous\e\agent\AgentBootstrap.java|233|239|Object|class|java.lang.Object
    Method Start: AgentBootstrap()V
-      @|com\anonymous\e\agent\AgentBootstrap.java|186|200|AgentBootstrap|method|com.anonymous.e.agent.AgentBootstrap|AgentBootstrap|()V
+      @|com\anonymous\e\agent\AgentBootstrap.java|256|270|AgentBootstrap|method|com.anonymous.e.agent.AgentBootstrap|AgentBootstrap|()V
    Method End: AgentBootstrap()V
    Method Start: install()V
-      @|com\anonymous\e\agent\AgentBootstrap.java|248|255|install|method|com.anonymous.e.agent.AgentBootstrap|install|()V
-      @|com\anonymous\e\agent\AgentBootstrap.java|269|275|System|class|java.lang.System
-      @|com\anonymous\e\agent\AgentBootstrap.java|276|279|out|field|java.lang.System|out
-      @|com\anonymous\e\agent\AgentBootstrap.java|280|287|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\AgentBootstrap.java|354|359|Class|class|java.lang.Class
-      @|com\anonymous\e\agent\AgentBootstrap.java|367|372|Class|class|java.lang.Class
-      @|com\anonymous\e\agent\AgentBootstrap.java|373|380|forName|method|java.lang.Class|forName|(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
-      @|com\anonymous\e\agent\AgentBootstrap.java|483|497|AgentBootstrap|class|com.anonymous.e.agent.AgentBootstrap
-      @|com\anonymous\e\agent\AgentBootstrap.java|504|518|getClassLoader|method|java.lang.Class|getClassLoader|()Ljava/lang/ClassLoader;
-      @|com\anonymous\e\agent\AgentBootstrap.java|548|554|System|class|java.lang.System
-      @|com\anonymous\e\agent\AgentBootstrap.java|555|558|out|field|java.lang.System|out
-      @|com\anonymous\e\agent\AgentBootstrap.java|559|566|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\AgentBootstrap.java|604|613|Throwable|class|java.lang.Throwable
-      @|com\anonymous\e\agent\AgentBootstrap.java|633|648|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|com\anonymous\e\agent\AgentBootstrap.java|305|312|install|method|com.anonymous.e.agent.AgentBootstrap|install|()V
+      @|com\anonymous\e\agent\AgentBootstrap.java|339|343|LOCK|field|com.anonymous.e.agent.AgentBootstrap|LOCK
+      @|com\anonymous\e\agent\AgentBootstrap.java|363|372|scheduled|field|com.anonymous.e.agent.AgentBootstrap|scheduled
+      @|com\anonymous\e\agent\AgentBootstrap.java|376|377|e|class|com.anonymous.e.e
+      @|com\anonymous\e\agent\AgentBootstrap.java|378|391|isInitialized|method|com.anonymous.e.e|isInitialized|()Z
+      @|com\anonymous\e\agent\AgentBootstrap.java|413|419|System|class|java.lang.System
+      @|com\anonymous\e\agent\AgentBootstrap.java|420|423|out|field|java.lang.System|out
+      @|com\anonymous\e\agent\AgentBootstrap.java|424|431|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\agent\AgentBootstrap.java|534|543|scheduled|field|com.anonymous.e.agent.AgentBootstrap|scheduled
+      @|com\anonymous\e\agent\AgentBootstrap.java|571|579|Runnable|class|java.lang.Runnable
+      @|com\anonymous\e\agent\AgentBootstrap.java|598|606|Runnable|class|java.lang.Runnable
+      Anon Class Start: com.anonymous.e.agent.AgentBootstrap$1
+         Method Start: run()V
+            @|com\anonymous\e\agent\AgentBootstrap.java|657|660|run|method|java.lang.Runnable|run|()V
+            @|com\anonymous\e\agent\AgentBootstrap.java|707|708|e|class|com.anonymous.e.e
+            @|com\anonymous\e\agent\AgentBootstrap.java|709|721|initInjected|method|com.anonymous.e.e|initInjected|()V
+            @|com\anonymous\e\agent\AgentBootstrap.java|750|759|Throwable|class|java.lang.Throwable
+            @|com\anonymous\e\agent\AgentBootstrap.java|785|791|System|class|java.lang.System
+            @|com\anonymous\e\agent\AgentBootstrap.java|792|795|err|field|java.lang.System|err
+            @|com\anonymous\e\agent\AgentBootstrap.java|796|803|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+            @|com\anonymous\e\agent\AgentBootstrap.java|851|866|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+         Method End: run()V
+      Anon Class End: com.anonymous.e.agent.AgentBootstrap$1
+      @|com\anonymous\e\agent\AgentBootstrap.java|940|949|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\anonymous\e\agent\AgentBootstrap.java|955|964|Minecraft|class|net.minecraft.client.Minecraft
+      @|com\anonymous\e\agent\AgentBootstrap.java|965|977|getMinecraft|method|net.minecraft.client.Minecraft|getMinecraft|()Lnet/minecraft/client/Minecraft;
+      @|com\anonymous\e\agent\AgentBootstrap.java|1027|1033|System|class|java.lang.System
+      @|com\anonymous\e\agent\AgentBootstrap.java|1034|1037|out|field|java.lang.System|out
+      @|com\anonymous\e\agent\AgentBootstrap.java|1038|1045|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\agent\AgentBootstrap.java|1140|1143|run|method|java.lang.Runnable|run|()V
+      @|com\anonymous\e\agent\AgentBootstrap.java|1205|1233|isCallingFromMinecraftThread|method|net.minecraft.util.IThreadListener|isCallingFromMinecraftThread|()Z
+      @|com\anonymous\e\agent\AgentBootstrap.java|1267|1270|run|method|java.lang.Runnable|run|()V
+      @|com\anonymous\e\agent\AgentBootstrap.java|1314|1330|addScheduledTask|method|net.minecraft.util.IThreadListener|addScheduledTask|(Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;
+      @|com\anonymous\e\agent\AgentBootstrap.java|1361|1367|System|class|java.lang.System
+      @|com\anonymous\e\agent\AgentBootstrap.java|1368|1371|out|field|java.lang.System|out
+      @|com\anonymous\e\agent\AgentBootstrap.java|1372|1379|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\agent\AgentBootstrap.java|1459|1468|Throwable|class|java.lang.Throwable
+      @|com\anonymous\e\agent\AgentBootstrap.java|1486|1492|System|class|java.lang.System
+      @|com\anonymous\e\agent\AgentBootstrap.java|1493|1496|err|field|java.lang.System|err
+      @|com\anonymous\e\agent\AgentBootstrap.java|1497|1504|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\agent\AgentBootstrap.java|1558|1573|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|com\anonymous\e\agent\AgentBootstrap.java|1601|1604|run|method|java.lang.Runnable|run|()V
    Method End: install()V
 Class End  : com.anonymous.e.agent.AgentBootstrap
 endProcessing com\anonymous\e\agent\AgentBootstrap.java
@@ -684,84 +715,179 @@ processing com\anonymous\e\agent\eAgent.java
 @|com\anonymous\e\agent\eAgent.java|8|29|com.anonymous.e.agent|package|com.anonymous.e.agent|(file)
 Class Start: com.anonymous.e.agent.eAgent
    Method Start: eAgent()V
-      @|com\anonymous\e\agent\eAgent.java|194|200|eAgent|method|com.anonymous.e.agent.eAgent|eAgent|()V
+      @|com\anonymous\e\agent\eAgent.java|259|265|eAgent|method|com.anonymous.e.agent.eAgent|eAgent|()V
    Method End: eAgent()V
    Method Start: premain(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V
-      @|com\anonymous\e\agent\eAgent.java|235|242|premain|method|com.anonymous.e.agent.eAgent|premain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V
-      @|com\anonymous\e\agent\eAgent.java|243|249|String|class|java.lang.String
-      @|com\anonymous\e\agent\eAgent.java|250|259|agentArgs|param|com.anonymous.e.agent.eAgent|premain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V|agentArgs|0
-      @|com\anonymous\e\agent\eAgent.java|261|276|Instrumentation|class|java.lang.instrument.Instrumentation
-      @|com\anonymous\e\agent\eAgent.java|277|292|instrumentation|param|com.anonymous.e.agent.eAgent|premain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V|instrumentation|1
-      @|com\anonymous\e\agent\eAgent.java|304|310|attach|method|com.anonymous.e.agent.eAgent|attach|(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\eAgent.java|311|320|agentArgs|param|com.anonymous.e.agent.eAgent|premain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V|agentArgs|0
+      @|com\anonymous\e\agent\eAgent.java|300|307|premain|method|com.anonymous.e.agent.eAgent|premain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V
+      @|com\anonymous\e\agent\eAgent.java|308|314|String|class|java.lang.String
+      @|com\anonymous\e\agent\eAgent.java|315|324|agentArgs|param|com.anonymous.e.agent.eAgent|premain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V|agentArgs|0
+      @|com\anonymous\e\agent\eAgent.java|326|341|Instrumentation|class|java.lang.instrument.Instrumentation
+      @|com\anonymous\e\agent\eAgent.java|342|357|instrumentation|param|com.anonymous.e.agent.eAgent|premain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V|instrumentation|1
+      @|com\anonymous\e\agent\eAgent.java|369|375|attach|method|com.anonymous.e.agent.eAgent|attach|()V
    Method End: premain(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V
    Method Start: agentmain(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V
-      @|com\anonymous\e\agent\eAgent.java|353|362|agentmain|method|com.anonymous.e.agent.eAgent|agentmain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V
-      @|com\anonymous\e\agent\eAgent.java|363|369|String|class|java.lang.String
-      @|com\anonymous\e\agent\eAgent.java|370|379|agentArgs|param|com.anonymous.e.agent.eAgent|agentmain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V|agentArgs|0
-      @|com\anonymous\e\agent\eAgent.java|381|396|Instrumentation|class|java.lang.instrument.Instrumentation
-      @|com\anonymous\e\agent\eAgent.java|397|412|instrumentation|param|com.anonymous.e.agent.eAgent|agentmain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V|instrumentation|1
-      @|com\anonymous\e\agent\eAgent.java|424|430|attach|method|com.anonymous.e.agent.eAgent|attach|(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\eAgent.java|431|440|agentArgs|param|com.anonymous.e.agent.eAgent|agentmain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V|agentArgs|0
+      @|com\anonymous\e\agent\eAgent.java|409|418|agentmain|method|com.anonymous.e.agent.eAgent|agentmain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V
+      @|com\anonymous\e\agent\eAgent.java|419|425|String|class|java.lang.String
+      @|com\anonymous\e\agent\eAgent.java|426|435|agentArgs|param|com.anonymous.e.agent.eAgent|agentmain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V|agentArgs|0
+      @|com\anonymous\e\agent\eAgent.java|437|452|Instrumentation|class|java.lang.instrument.Instrumentation
+      @|com\anonymous\e\agent\eAgent.java|453|468|instrumentation|param|com.anonymous.e.agent.eAgent|agentmain|(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V|instrumentation|1
+      @|com\anonymous\e\agent\eAgent.java|480|486|attach|method|com.anonymous.e.agent.eAgent|attach|()V
    Method End: agentmain(Ljava/lang/String;Ljava/lang/instrument/Instrumentation;)V
-   Method Start: attach(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\eAgent.java|474|480|attach|method|com.anonymous.e.agent.eAgent|attach|(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\eAgent.java|481|487|String|class|java.lang.String
-      @|com\anonymous\e\agent\eAgent.java|488|497|agentArgs|param|com.anonymous.e.agent.eAgent|attach|(Ljava/lang/String;)V|agentArgs|0
-      @|com\anonymous\e\agent\eAgent.java|529|532|URL|class|java.net.URL
-      @|com\anonymous\e\agent\eAgent.java|542|548|eAgent|class|com.anonymous.e.agent.eAgent
-      @|com\anonymous\e\agent\eAgent.java|555|574|getProtectionDomain|method|java.lang.Class|getProtectionDomain|()Ljava/security/ProtectionDomain;
-      @|com\anonymous\e\agent\eAgent.java|598|611|getCodeSource|method|java.security.ProtectionDomain|getCodeSource|()Ljava/security/CodeSource;
-      @|com\anonymous\e\agent\eAgent.java|635|646|getLocation|method|java.security.CodeSource|getLocation|()Ljava/net/URL;
-      @|com\anonymous\e\agent\eAgent.java|663|674|ClassLoader|class|java.lang.ClassLoader
-      @|com\anonymous\e\agent\eAgent.java|695|716|findLaunchClassLoader|method|com.anonymous.e.agent.eAgent|findLaunchClassLoader|()Ljava/lang/ClassLoader;
-      @|com\anonymous\e\agent\eAgent.java|733|739|System|class|java.lang.System
-      @|com\anonymous\e\agent\eAgent.java|740|743|out|field|java.lang.System|out
-      @|com\anonymous\e\agent\eAgent.java|744|751|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\eAgent.java|802|808|eAgent|class|com.anonymous.e.agent.eAgent
-      @|com\anonymous\e\agent\eAgent.java|815|829|getClassLoader|method|java.lang.Class|getClassLoader|()Ljava/lang/ClassLoader;
-      @|com\anonymous\e\agent\eAgent.java|847|853|System|class|java.lang.System
-      @|com\anonymous\e\agent\eAgent.java|854|857|out|field|java.lang.System|out
-      @|com\anonymous\e\agent\eAgent.java|858|865|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\eAgent.java|949|955|Method|class|java.lang.reflect.Method
-      @|com\anonymous\e\agent\eAgent.java|983|991|getClass|method|java.lang.Object|getClass|()Ljava/lang/Class;
-      @|com\anonymous\e\agent\eAgent.java|1015|1024|getMethod|method|java.lang.Class|getMethod|(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
-      @|com\anonymous\e\agent\eAgent.java|1035|1038|URL|class|java.net.URL
-      @|com\anonymous\e\agent\eAgent.java|1067|1073|invoke|method|java.lang.reflect.Method|invoke|(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
-      @|com\anonymous\e\agent\eAgent.java|1115|1120|Class|class|java.lang.Class
-      @|com\anonymous\e\agent\eAgent.java|1136|1141|Class|class|java.lang.Class
-      @|com\anonymous\e\agent\eAgent.java|1142|1149|forName|method|java.lang.Class|forName|(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
-      @|com\anonymous\e\agent\eAgent.java|1303|1309|System|class|java.lang.System
-      @|com\anonymous\e\agent\eAgent.java|1310|1313|err|field|java.lang.System|err
-      @|com\anonymous\e\agent\eAgent.java|1314|1321|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\eAgent.java|1415|1429|getClassLoader|method|java.lang.Class|getClassLoader|()Ljava/lang/ClassLoader;
-      @|com\anonymous\e\agent\eAgent.java|1447|1453|System|class|java.lang.System
-      @|com\anonymous\e\agent\eAgent.java|1454|1457|err|field|java.lang.System|err
-      @|com\anonymous\e\agent\eAgent.java|1458|1465|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\eAgent.java|1546|1552|eAgent|class|com.anonymous.e.agent.eAgent
-      @|com\anonymous\e\agent\eAgent.java|1559|1573|getClassLoader|method|java.lang.Class|getClassLoader|()Ljava/lang/ClassLoader;
-      @|com\anonymous\e\agent\eAgent.java|1601|1610|getMethod|method|java.lang.Class|getMethod|(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
-      @|com\anonymous\e\agent\eAgent.java|1622|1628|invoke|method|java.lang.reflect.Method|invoke|(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
-      @|com\anonymous\e\agent\eAgent.java|1654|1663|Throwable|class|java.lang.Throwable
-      @|com\anonymous\e\agent\eAgent.java|1681|1687|System|class|java.lang.System
-      @|com\anonymous\e\agent\eAgent.java|1688|1691|err|field|java.lang.System|err
-      @|com\anonymous\e\agent\eAgent.java|1692|1699|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
-      @|com\anonymous\e\agent\eAgent.java|1739|1754|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
-   Method End: attach(Ljava/lang/String;)V
-   Method Start: findLaunchClassLoader()Ljava/lang/ClassLoader;
-      @|com\anonymous\e\agent\eAgent.java|1806|1827|findLaunchClassLoader|method|com.anonymous.e.agent.eAgent|findLaunchClassLoader|()Ljava/lang/ClassLoader;
-      @|com\anonymous\e\agent\eAgent.java|1794|1805|ClassLoader|class|java.lang.ClassLoader
-      @|com\anonymous\e\agent\eAgent.java|1837|1846|Exception|class|java.lang.Exception
-      @|com\anonymous\e\agent\eAgent.java|1857|1862|Class|class|java.lang.Class
-      @|com\anonymous\e\agent\eAgent.java|1875|1880|Class|class|java.lang.Class
-      @|com\anonymous\e\agent\eAgent.java|1881|1888|forName|method|java.lang.Class|forName|(Ljava/lang/String;)Ljava/lang/Class;
-      @|com\anonymous\e\agent\eAgent.java|1936|1942|Object|class|java.lang.Object
-      @|com\anonymous\e\agent\eAgent.java|1964|1972|getField|method|java.lang.Class|getField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
-      @|com\anonymous\e\agent\eAgent.java|1988|1991|get|method|java.lang.reflect.Field|get|(Ljava/lang/Object;)Ljava/lang/Object;
-      @|com\anonymous\e\agent\eAgent.java|2036|2047|ClassLoader|class|java.lang.ClassLoader
-      @|com\anonymous\e\agent\eAgent.java|2074|2095|IllegalStateException|class|java.lang.IllegalStateException
-      @|com\anonymous\e\agent\eAgent.java|2166|2177|ClassLoader|class|java.lang.ClassLoader
-   Method End: findLaunchClassLoader()Ljava/lang/ClassLoader;
+   Method Start: attach()V
+      @|com\anonymous\e\agent\eAgent.java|521|527|attach|method|com.anonymous.e.agent.eAgent|attach|()V
+      @|com\anonymous\e\agent\eAgent.java|558|561|URL|class|java.net.URL
+      @|com\anonymous\e\agent\eAgent.java|571|577|eAgent|class|com.anonymous.e.agent.eAgent
+      @|com\anonymous\e\agent\eAgent.java|584|603|getProtectionDomain|method|java.lang.Class|getProtectionDomain|()Ljava/security/ProtectionDomain;
+      @|com\anonymous\e\agent\eAgent.java|627|640|getCodeSource|method|java.security.ProtectionDomain|getCodeSource|()Ljava/security/CodeSource;
+      @|com\anonymous\e\agent\eAgent.java|664|675|getLocation|method|java.security.CodeSource|getLocation|()Ljava/net/URL;
+      @|com\anonymous\e\agent\eAgent.java|692|703|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|719|743|findMinecraftClassLoader|method|com.anonymous.e.agent.eAgent|findMinecraftClassLoader|(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\eAgent.java|765|771|Thread|class|java.lang.Thread
+      @|com\anonymous\e\agent\eAgent.java|772|785|currentThread|method|java.lang.Thread|currentThread|()Ljava/lang/Thread;
+      @|com\anonymous\e\agent\eAgent.java|788|809|getContextClassLoader|method|java.lang.Thread|getContextClassLoader|()Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\eAgent.java|840|846|System|class|java.lang.System
+      @|com\anonymous\e\agent\eAgent.java|847|850|out|field|java.lang.System|out
+      @|com\anonymous\e\agent\eAgent.java|851|858|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\agent\eAgent.java|885|891|eAgent|class|com.anonymous.e.agent.eAgent
+      @|com\anonymous\e\agent\eAgent.java|898|912|getClassLoader|method|java.lang.Class|getClassLoader|()Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\eAgent.java|929|935|System|class|java.lang.System
+      @|com\anonymous\e\agent\eAgent.java|936|939|out|field|java.lang.System|out
+      @|com\anonymous\e\agent\eAgent.java|940|947|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\agent\eAgent.java|1002|1011|Throwable|class|java.lang.Throwable
+      @|com\anonymous\e\agent\eAgent.java|1117|1123|addUrl|method|com.anonymous.e.agent.eAgent|addUrl|(Ljava/lang/ClassLoader;Ljava/net/URL;)V
+      @|com\anonymous\e\agent\eAgent.java|1167|1180|invokeInstall|method|com.anonymous.e.agent.eAgent|invokeInstall|(Ljava/lang/ClassLoader;)V
+      @|com\anonymous\e\agent\eAgent.java|1249|1258|Throwable|class|java.lang.Throwable
+      @|com\anonymous\e\agent\eAgent.java|1323|1329|System|class|java.lang.System
+      @|com\anonymous\e\agent\eAgent.java|1330|1333|err|field|java.lang.System|err
+      @|com\anonymous\e\agent\eAgent.java|1334|1341|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\agent\eAgent.java|1437|1448|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|1516|1522|Thread|class|java.lang.Thread
+      @|com\anonymous\e\agent\eAgent.java|1523|1536|currentThread|method|java.lang.Thread|currentThread|()Ljava/lang/Thread;
+      @|com\anonymous\e\agent\eAgent.java|1539|1560|getContextClassLoader|method|java.lang.Thread|getContextClassLoader|()Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\eAgent.java|1576|1590|URLClassLoader|class|java.net.URLClassLoader
+      @|com\anonymous\e\agent\eAgent.java|1609|1623|URLClassLoader|class|java.net.URLClassLoader
+      @|com\anonymous\e\agent\eAgent.java|1628|1631|URL|class|java.net.URL
+      @|com\anonymous\e\agent\eAgent.java|1686|1699|invokeInstall|method|com.anonymous.e.agent.eAgent|invokeInstall|(Ljava/lang/ClassLoader;)V
+      @|com\anonymous\e\agent\eAgent.java|1735|1744|Throwable|class|java.lang.Throwable
+      @|com\anonymous\e\agent\eAgent.java|1839|1852|addSuppressed|method|java.lang.Throwable|addSuppressed|(Ljava/lang/Throwable;)V
+      @|com\anonymous\e\agent\eAgent.java|1944|1953|Throwable|class|java.lang.Throwable
+      @|com\anonymous\e\agent\eAgent.java|1971|1977|System|class|java.lang.System
+      @|com\anonymous\e\agent\eAgent.java|1978|1981|err|field|java.lang.System|err
+      @|com\anonymous\e\agent\eAgent.java|1982|1989|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\agent\eAgent.java|2029|2044|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+   Method End: attach()V
+   Method Start: findMinecraftClassLoader(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\eAgent.java|2096|2120|findMinecraftClassLoader|method|com.anonymous.e.agent.eAgent|findMinecraftClassLoader|(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\eAgent.java|2084|2095|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|2121|2132|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|2133|2142|preferred|param|com.anonymous.e.agent.eAgent|findMinecraftClassLoader|(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;|preferred|0
+      @|com\anonymous\e\agent\eAgent.java|2154|2157|Set|class|java.util.Set
+      @|com\anonymous\e\agent\eAgent.java|2158|2169|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|2188|2201|LinkedHashSet|class|java.util.LinkedHashSet
+      @|com\anonymous\e\agent\eAgent.java|2202|2213|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|2226|2238|addAncestors|method|com.anonymous.e.agent.eAgent|addAncestors|(Ljava/util/Set;Ljava/lang/ClassLoader;)V
+      @|com\anonymous\e\agent\eAgent.java|2251|2260|preferred|param|com.anonymous.e.agent.eAgent|findMinecraftClassLoader|(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;|preferred|0
+      @|com\anonymous\e\agent\eAgent.java|2271|2283|addAncestors|method|com.anonymous.e.agent.eAgent|addAncestors|(Ljava/util/Set;Ljava/lang/ClassLoader;)V
+      @|com\anonymous\e\agent\eAgent.java|2296|2302|Thread|class|java.lang.Thread
+      @|com\anonymous\e\agent\eAgent.java|2303|2316|currentThread|method|java.lang.Thread|currentThread|()Ljava/lang/Thread;
+      @|com\anonymous\e\agent\eAgent.java|2319|2340|getContextClassLoader|method|java.lang.Thread|getContextClassLoader|()Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\eAgent.java|2353|2365|addAncestors|method|com.anonymous.e.agent.eAgent|addAncestors|(Ljava/util/Set;Ljava/lang/ClassLoader;)V
+      @|com\anonymous\e\agent\eAgent.java|2378|2384|eAgent|class|com.anonymous.e.agent.eAgent
+      @|com\anonymous\e\agent\eAgent.java|2391|2405|getClassLoader|method|java.lang.Class|getClassLoader|()Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\eAgent.java|2418|2430|addAncestors|method|com.anonymous.e.agent.eAgent|addAncestors|(Ljava/util/Set;Ljava/lang/ClassLoader;)V
+      @|com\anonymous\e\agent\eAgent.java|2443|2454|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|2455|2475|getSystemClassLoader|method|java.lang.ClassLoader|getSystemClassLoader|()Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\eAgent.java|2494|2500|Thread|class|java.lang.Thread
+      @|com\anonymous\e\agent\eAgent.java|2510|2516|Thread|class|java.lang.Thread
+      @|com\anonymous\e\agent\eAgent.java|2517|2534|getAllStackTraces|method|java.lang.Thread|getAllStackTraces|()Ljava/util/Map;
+      @|com\anonymous\e\agent\eAgent.java|2537|2543|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+      @|com\anonymous\e\agent\eAgent.java|2561|2573|addAncestors|method|com.anonymous.e.agent.eAgent|addAncestors|(Ljava/util/Set;Ljava/lang/ClassLoader;)V
+      @|com\anonymous\e\agent\eAgent.java|2593|2614|getContextClassLoader|method|java.lang.Thread|getContextClassLoader|()Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\eAgent.java|2643|2654|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|2697|2704|canLoad|method|com.anonymous.e.agent.eAgent|canLoad|(Ljava/lang/ClassLoader;Ljava/lang/String;)Z
+      @|com\anonymous\e\agent\eAgent.java|2773|2780|canLoad|method|com.anonymous.e.agent.eAgent|canLoad|(Ljava/lang/ClassLoader;Ljava/lang/String;)Z
+      @|com\anonymous\e\agent\eAgent.java|2924|2929|Class|class|java.lang.Class
+      @|com\anonymous\e\agent\eAgent.java|2942|2947|Class|class|java.lang.Class
+      @|com\anonymous\e\agent\eAgent.java|2948|2955|forName|method|java.lang.Class|forName|(Ljava/lang/String;)Ljava/lang/Class;
+      @|com\anonymous\e\agent\eAgent.java|3007|3013|Object|class|java.lang.Object
+      @|com\anonymous\e\agent\eAgent.java|3026|3034|getField|method|java.lang.Class|getField|(Ljava/lang/String;)Ljava/lang/reflect/Field;
+      @|com\anonymous\e\agent\eAgent.java|3050|3053|get|method|java.lang.reflect.Field|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com\anonymous\e\agent\eAgent.java|3091|3102|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|3122|3128|System|class|java.lang.System
+      @|com\anonymous\e\agent\eAgent.java|3129|3132|out|field|java.lang.System|out
+      @|com\anonymous\e\agent\eAgent.java|3133|3140|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\agent\eAgent.java|3208|3219|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|3256|3265|Throwable|class|java.lang.Throwable
+   Method End: findMinecraftClassLoader(Ljava/lang/ClassLoader;)Ljava/lang/ClassLoader;
+   Method Start: addAncestors(Ljava/util/Set;Ljava/lang/ClassLoader;)V
+      @|com\anonymous\e\agent\eAgent.java|3340|3352|addAncestors|method|com.anonymous.e.agent.eAgent|addAncestors|(Ljava/util/Set;Ljava/lang/ClassLoader;)V
+      @|com\anonymous\e\agent\eAgent.java|3357|3368|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|3353|3356|Set|class|java.util.Set
+      @|com\anonymous\e\agent\eAgent.java|3370|3373|set|param|com.anonymous.e.agent.eAgent|addAncestors|(Ljava/util/Set;Ljava/lang/ClassLoader;)V|set|0
+      @|com\anonymous\e\agent\eAgent.java|3375|3386|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|3387|3393|loader|param|com.anonymous.e.agent.eAgent|addAncestors|(Ljava/util/Set;Ljava/lang/ClassLoader;)V|loader|1
+      @|com\anonymous\e\agent\eAgent.java|3410|3421|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|3427|3433|loader|param|com.anonymous.e.agent.eAgent|addAncestors|(Ljava/util/Set;Ljava/lang/ClassLoader;)V|loader|1
+      @|com\anonymous\e\agent\eAgent.java|3455|3464|getParent|method|java.lang.ClassLoader|getParent|()Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\eAgent.java|3482|3485|set|param|com.anonymous.e.agent.eAgent|addAncestors|(Ljava/util/Set;Ljava/lang/ClassLoader;)V|set|0
+      @|com\anonymous\e\agent\eAgent.java|3486|3489|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+   Method End: addAncestors(Ljava/util/Set;Ljava/lang/ClassLoader;)V
+   Method Start: canLoad(Ljava/lang/ClassLoader;Ljava/lang/String;)Z
+      @|com\anonymous\e\agent\eAgent.java|3539|3546|canLoad|method|com.anonymous.e.agent.eAgent|canLoad|(Ljava/lang/ClassLoader;Ljava/lang/String;)Z
+      @|com\anonymous\e\agent\eAgent.java|3547|3558|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|3559|3565|loader|param|com.anonymous.e.agent.eAgent|canLoad|(Ljava/lang/ClassLoader;Ljava/lang/String;)Z|loader|0
+      @|com\anonymous\e\agent\eAgent.java|3567|3573|String|class|java.lang.String
+      @|com\anonymous\e\agent\eAgent.java|3574|3583|className|param|com.anonymous.e.agent.eAgent|canLoad|(Ljava/lang/ClassLoader;Ljava/lang/String;)Z|className|1
+      @|com\anonymous\e\agent\eAgent.java|3599|3605|loader|param|com.anonymous.e.agent.eAgent|canLoad|(Ljava/lang/ClassLoader;Ljava/lang/String;)Z|loader|0
+      @|com\anonymous\e\agent\eAgent.java|3655|3660|Class|class|java.lang.Class
+      @|com\anonymous\e\agent\eAgent.java|3661|3668|forName|method|java.lang.Class|forName|(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+      @|com\anonymous\e\agent\eAgent.java|3669|3678|className|param|com.anonymous.e.agent.eAgent|canLoad|(Ljava/lang/ClassLoader;Ljava/lang/String;)Z|className|1
+      @|com\anonymous\e\agent\eAgent.java|3687|3693|loader|param|com.anonymous.e.agent.eAgent|canLoad|(Ljava/lang/ClassLoader;Ljava/lang/String;)Z|loader|0
+      @|com\anonymous\e\agent\eAgent.java|3738|3747|Throwable|class|java.lang.Throwable
+   Method End: canLoad(Ljava/lang/ClassLoader;Ljava/lang/String;)Z
+   Method Start: addUrl(Ljava/lang/ClassLoader;Ljava/net/URL;)V
+      @|com\anonymous\e\agent\eAgent.java|3826|3832|addUrl|method|com.anonymous.e.agent.eAgent|addUrl|(Ljava/lang/ClassLoader;Ljava/net/URL;)V
+      @|com\anonymous\e\agent\eAgent.java|3872|3881|Exception|class|java.lang.Exception
+      @|com\anonymous\e\agent\eAgent.java|3833|3844|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|3845|3851|loader|param|com.anonymous.e.agent.eAgent|addUrl|(Ljava/lang/ClassLoader;Ljava/net/URL;)V|loader|0
+      @|com\anonymous\e\agent\eAgent.java|3853|3856|URL|class|java.net.URL
+      @|com\anonymous\e\agent\eAgent.java|3857|3863|jarUrl|param|com.anonymous.e.agent.eAgent|addUrl|(Ljava/lang/ClassLoader;Ljava/net/URL;)V|jarUrl|1
+      @|com\anonymous\e\agent\eAgent.java|3898|3904|loader|param|com.anonymous.e.agent.eAgent|addUrl|(Ljava/lang/ClassLoader;Ljava/net/URL;)V|loader|0
+      @|com\anonymous\e\agent\eAgent.java|3916|3930|URLClassLoader|class|java.net.URLClassLoader
+      @|com\anonymous\e\agent\eAgent.java|3973|3987|URLClassLoader|class|java.net.URLClassLoader
+      @|com\anonymous\e\agent\eAgent.java|3995|4009|URLClassLoader|class|java.net.URLClassLoader
+      @|com\anonymous\e\agent\eAgent.java|4011|4017|loader|param|com.anonymous.e.agent.eAgent|addUrl|(Ljava/lang/ClassLoader;Ljava/net/URL;)V|loader|0
+      @|com\anonymous\e\agent\eAgent.java|4057|4060|URL|class|java.net.URL
+      @|com\anonymous\e\agent\eAgent.java|4071|4078|getURLs|method|java.net.URLClassLoader|getURLs|()[Ljava/net/URL;
+      @|com\anonymous\e\agent\eAgent.java|4104|4112|sameFile|method|java.net.URL|sameFile|(Ljava/net/URL;)Z
+      @|com\anonymous\e\agent\eAgent.java|4113|4119|jarUrl|param|com.anonymous.e.agent.eAgent|addUrl|(Ljava/lang/ClassLoader;Ljava/net/URL;)V|jarUrl|1
+      @|com\anonymous\e\agent\eAgent.java|4180|4186|Method|class|java.lang.reflect.Method
+      @|com\anonymous\e\agent\eAgent.java|4196|4210|URLClassLoader|class|java.net.URLClassLoader
+      @|com\anonymous\e\agent\eAgent.java|4217|4234|getDeclaredMethod|method|java.lang.Class|getDeclaredMethod|(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+      @|com\anonymous\e\agent\eAgent.java|4245|4248|URL|class|java.net.URL
+      @|com\anonymous\e\agent\eAgent.java|4272|4285|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|com\anonymous\e\agent\eAgent.java|4308|4314|invoke|method|java.lang.reflect.Method|invoke|(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+      @|com\anonymous\e\agent\eAgent.java|4315|4321|loader|param|com.anonymous.e.agent.eAgent|addUrl|(Ljava/lang/ClassLoader;Ljava/net/URL;)V|loader|0
+      @|com\anonymous\e\agent\eAgent.java|4323|4329|jarUrl|param|com.anonymous.e.agent.eAgent|addUrl|(Ljava/lang/ClassLoader;Ljava/net/URL;)V|jarUrl|1
+   Method End: addUrl(Ljava/lang/ClassLoader;Ljava/net/URL;)V
+   Method Start: invokeInstall(Ljava/lang/ClassLoader;)V
+      @|com\anonymous\e\agent\eAgent.java|4363|4376|invokeInstall|method|com.anonymous.e.agent.eAgent|invokeInstall|(Ljava/lang/ClassLoader;)V
+      @|com\anonymous\e\agent\eAgent.java|4404|4413|Throwable|class|java.lang.Throwable
+      @|com\anonymous\e\agent\eAgent.java|4377|4388|ClassLoader|class|java.lang.ClassLoader
+      @|com\anonymous\e\agent\eAgent.java|4389|4395|loader|param|com.anonymous.e.agent.eAgent|invokeInstall|(Ljava/lang/ClassLoader;)V|loader|0
+      @|com\anonymous\e\agent\eAgent.java|4424|4429|Class|class|java.lang.Class
+      @|com\anonymous\e\agent\eAgent.java|4445|4450|Class|class|java.lang.Class
+      @|com\anonymous\e\agent\eAgent.java|4451|4458|forName|method|java.lang.Class|forName|(Ljava/lang/String;ZLjava/lang/ClassLoader;)Ljava/lang/Class;
+      @|com\anonymous\e\agent\eAgent.java|4554|4560|loader|param|com.anonymous.e.agent.eAgent|invokeInstall|(Ljava/lang/ClassLoader;)V|loader|0
+      @|com\anonymous\e\agent\eAgent.java|4580|4586|System|class|java.lang.System
+      @|com\anonymous\e\agent\eAgent.java|4587|4590|out|field|java.lang.System|out
+      @|com\anonymous\e\agent\eAgent.java|4591|4598|println|method|java.io.PrintStream|println|(Ljava/lang/String;)V
+      @|com\anonymous\e\agent\eAgent.java|4637|4651|getClassLoader|method|java.lang.Class|getClassLoader|()Ljava/lang/ClassLoader;
+      @|com\anonymous\e\agent\eAgent.java|4664|4670|Method|class|java.lang.reflect.Method
+      @|com\anonymous\e\agent\eAgent.java|4691|4708|getDeclaredMethod|method|java.lang.Class|getDeclaredMethod|(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;
+      @|com\anonymous\e\agent\eAgent.java|4737|4750|setAccessible|method|java.lang.reflect.AccessibleObject|setAccessible|(Z)V
+      @|com\anonymous\e\agent\eAgent.java|4774|4780|invoke|method|java.lang.reflect.Method|invoke|(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
+   Method End: invokeInstall(Ljava/lang/ClassLoader;)V
 Class End  : com.anonymous.e.agent.eAgent
 endProcessing com\anonymous\e\agent\eAgent.java
 

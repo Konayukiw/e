@@ -9,12 +9,12 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 @Mod(
         modid = "Xk7mQ2pR",
         name = "e",
-        version = "1.5",
+        version = "1.6",
         acceptedMinecraftVersions = "[1.8.9]"
 )
 public class e {
 
-    public static eMod fastMine;
+    public static eMod ez;
     public static ConfigUtils configUtils;
     private static boolean initialized;
 
@@ -31,22 +31,22 @@ public class e {
             return;
         }
 
-        fastMine      = new eMod();
+        ez = new eMod();
         configUtils = new ConfigUtils();
 
-        configUtils.load(fastMine);
+        configUtils.load(ez);
 
-        if (!fastMine.isEnabled()) {
-            fastMine.enable();
-            configUtils.save(fastMine);
+        if (!ez.isEnabled()) {
+            ez.enable();
+            configUtils.save(ez);
         }
 
         ClientCommandHandler.instance.registerCommand(
-                new ICommand(fastMine, configUtils)
+                new ICommand(ez, configUtils)
         );
 
         initialized = true;
-        System.out.println("[e] eMod initialized");
+        System.out.println("[e] e initialized");
     }
 
     public static synchronized boolean isInitialized() {
