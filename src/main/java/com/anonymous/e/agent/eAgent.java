@@ -116,7 +116,6 @@ public final class eAgent {
             return;
         }
         URLClassLoader ucl = (URLClassLoader) loader;
-        // 既に追加済みなら何もしない
         for (URL url : ucl.getURLs()) {
             if (url.sameFile(jarUrl)) {
                 return;
