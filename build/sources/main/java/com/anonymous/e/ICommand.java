@@ -1,6 +1,6 @@
 package com.anonymous.e;
 
-import com.anonymous.e.module.eMod;
+import com.anonymous.e.module.eMain;
 import net.minecraft.command.CommandBase;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
@@ -13,10 +13,10 @@ public class ICommand extends CommandBase {
 
     private static final String PREFIX = "§7[§de§7] ";
 
-    private final eMod fm;
+    private final eMain fm;
     private final ConfigUtils cfg;
 
-    public ICommand(eMod fm, ConfigUtils cfg) {
+    public ICommand(eMain fm, ConfigUtils cfg) {
         this.fm  = fm;
         this.cfg = cfg;
     }
@@ -56,8 +56,8 @@ public class ICommand extends CommandBase {
         switch (args[0].toLowerCase()) {
 
             case "toggle":
-                if (fm.isEnabled()) { fm.disable(); send(sender, "eMod §cDISABLED"); }
-                else                { fm.enable();  send(sender, "eMod §aENABLED");  }
+                if (fm.isEnabled()) { fm.disable(); send(sender, "Fastmine §cDISABLED"); }
+                else                { fm.enable();  send(sender, "Fastmine §aENABLED");  }
                 cfg.save(fm);
                 break;
 
@@ -136,7 +136,7 @@ public class ICommand extends CommandBase {
     private void printStatus(ICommandSender sender) {
         String enabledStr = fm.isEnabled() ? "§aON" : "§cOFF";
         String modeStr    = fm.mode.getOptions()[(int) fm.mode.getInput()];
-        send(sender,  "eMod: " + enabledStr);
+        send(sender,  "Fastmine: " + enabledStr);
         send(sender,  "Delay = §e" + (int) fm.delay.getInput() + "§f tick(s)  §7(vanilla: 5)");
         send(sender,  "Speed = §e" + fm.multiplier.getInput() + "§fx  §7(vanilla: 1.0)");
         send(sender,  "Mode  = §e" + modeStr);
@@ -150,7 +150,7 @@ public class ICommand extends CommandBase {
         send(sender,  "§e/fm set delay §f<0-5> §7— Break delay ticks");
         send(sender,  "§e/fm set multiplier §f<1.0-2.0> §7— Mining speed multiplier");
         send(sender,  "§e/fm set mode §f<Pre|Post|Increment> §7— Mining mode");
-        send(sender,  "§e/fm set creative §f<On|Off> §7— Disable eMod in creative");
+        send(sender,  "§e/fm set creative §f<On|Off> §7— Disable eMain in creative");
         send(sender,  "§e/fm save §7— Force-save config to disk");
     }
 

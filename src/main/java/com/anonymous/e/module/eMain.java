@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.gameevent.TickEvent;
 import net.minecraftforge.fml.common.gameevent.TickEvent.Phase;
 import org.lwjgl.input.Mouse;
 
-public class eMod {
+public class eMain {
 
     private static final Minecraft mc = Minecraft.getMinecraft();
 
@@ -23,7 +23,7 @@ public class eMod {
     private boolean enabled = false;
     private float lastCurBlockDamageMP = 0.0F;
 
-    public eMod() {}
+    public eMain() {}
 
     public void enable() {
         if (!enabled) {

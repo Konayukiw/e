@@ -7,7 +7,7 @@ processing com\anonymous\e\PlayerControllerAccessor.java
 processing com\anonymous\e\agent\AgentBootstrap.java
 processing com\anonymous\e\agent\eAgent.java
 processing com\anonymous\e\e.java
-processing com\anonymous\e\module\eMod.java
+processing com\anonymous\e\module\eMain.java
 processing com\anonymous\e\module\setting\Setting.java
 processing com\anonymous\e\module\setting\impl\ButtonSetting.java
 processing com\anonymous\e\module\setting\impl\SliderSetting.java

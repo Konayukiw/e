@@ -33455,18 +33455,18 @@ Start Processing: com\anonymous\e\ConfigUtils.java
 [method, com/google/gson/GsonBuilder/create, ()Lcom/google/gson/Gson;]
 [method, com/anonymous/e/ConfigUtils/ConfigUtils, ()V]
 FOUND CONSTR method com/anonymous/e/ConfigUtils/ConfigUtils ()V com/anonymous/e/ConfigUtils
-Rename class net/minecraft/client/Minecraft[564,573]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[574,586]::getMinecraft->func_71410_x
-Rename field net/minecraft/client/Minecraft/mcDataDir[589,598]::mcDataDir->field_71412_D
+Rename class net/minecraft/client/Minecraft[565,574]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[575,587]::getMinecraft->func_71410_x
+Rename field net/minecraft/client/Minecraft/mcDataDir[590,599]::mcDataDir->field_71412_D
 [method, java/io/File/exists, ()Z]
 [method, java/io/File/mkdirs, ()Z]
-[method, com/anonymous/e/ConfigUtils/load, (Lcom/anonymous/e/module/eMod;)V]
+[method, com/anonymous/e/ConfigUtils/load, (Lcom/anonymous/e/module/eMain;)V]
 [method, java/io/File/exists, ()Z]
-[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMod;)V]
+[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMain;)V]
 [method, com/google/gson/JsonParser/parse, (Ljava/io/Reader;)Lcom/google/gson/JsonElement;]
 [method, com/google/gson/JsonElement/getAsJsonObject, ()Lcom/google/gson/JsonObject;]
 [method, com/google/gson/JsonObject/has, (Ljava/lang/String;)Z]
-[method, com/anonymous/e/ConfigUtils/setEnabled, (Lcom/anonymous/e/module/eMod;Z)V]
+[method, com/anonymous/e/ConfigUtils/setEnabled, (Lcom/anonymous/e/module/eMain;Z)V]
 [method, com/google/gson/JsonObject/get, (Ljava/lang/String;)Lcom/google/gson/JsonElement;]
 [method, com/google/gson/JsonElement/getAsBoolean, ()Z]
 [method, com/google/gson/JsonObject/has, (Ljava/lang/String;)Z]
@@ -33487,9 +33487,9 @@ Rename field net/minecraft/client/Minecraft/mcDataDir[589,598]::mcDataDir->field
 [method, com/google/gson/JsonElement/getAsBoolean, ()Z]
 [method, java/io/PrintStream/println, (Ljava/lang/String;)V]
 [method, java/lang/Throwable/getMessage, ()Ljava/lang/String;]
-[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMod;)V]
+[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMain;)V]
 [method, com/google/gson/JsonObject/addProperty, (Ljava/lang/String;Ljava/lang/Boolean;)V]
-[method, com/anonymous/e/module/eMod/isEnabled, ()Z]
+[method, com/anonymous/e/module/eMain/isEnabled, ()Z]
 [method, com/google/gson/JsonObject/addProperty, (Ljava/lang/String;Ljava/lang/Number;)V]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getInput, ()D]
 [method, com/google/gson/JsonObject/addProperty, (Ljava/lang/String;Ljava/lang/Number;)V]
@@ -33501,45 +33501,45 @@ Rename field net/minecraft/client/Minecraft/mcDataDir[589,598]::mcDataDir->field
 [method, com/google/gson/Gson/toJson, (Lcom/google/gson/JsonElement;Ljava/lang/Appendable;)V]
 [method, java/io/PrintStream/println, (Ljava/lang/String;)V]
 [method, java/lang/Throwable/getMessage, ()Ljava/lang/String;]
-[method, com/anonymous/e/ConfigUtils/setEnabled, (Lcom/anonymous/e/module/eMod;Z)V]
-[method, com/anonymous/e/module/eMod/isEnabled, ()Z]
-[method, com/anonymous/e/module/eMod/enable, ()V]
-[method, com/anonymous/e/module/eMod/isEnabled, ()Z]
-[method, com/anonymous/e/module/eMod/disable, ()V]
+[method, com/anonymous/e/ConfigUtils/setEnabled, (Lcom/anonymous/e/module/eMain;Z)V]
+[method, com/anonymous/e/module/eMain/isEnabled, ()Z]
+[method, com/anonymous/e/module/eMain/enable, ()V]
+[method, com/anonymous/e/module/eMain/isEnabled, ()Z]
+[method, com/anonymous/e/module/eMain/disable, ()V]
 Import: net.minecraft.client.Minecraft
 Adding 0 imports
 End  Processing: com\anonymous\e\ConfigUtils.java
 
 Start Processing: com\anonymous\e\ICommand.java
-[method, com/anonymous/e/ICommand/ICommand, (Lcom/anonymous/e/module/eMod;Lcom/anonymous/e/ConfigUtils;)V]
-FOUND CONSTR method com/anonymous/e/ICommand/ICommand (Lcom/anonymous/e/module/eMod;Lcom/anonymous/e/ConfigUtils;)V com/anonymous/e/ICommand
-Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[594,608]::getCommandName->func_71517_b
-Rename method net/minecraft/command/ICommand/getCommandUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[671,686]::getCommandUsage->func_71518_a
-Rename class net/minecraft/command/ICommandSender[684,698]::ICommandSender->ICommandSender
-Rename method net/minecraft/command/ICommand/getCommandAliases ()Ljava/util/List;[799,816]::getCommandAliases->func_71514_a
+[method, com/anonymous/e/ICommand/ICommand, (Lcom/anonymous/e/module/eMain;Lcom/anonymous/e/ConfigUtils;)V]
+FOUND CONSTR method com/anonymous/e/ICommand/ICommand (Lcom/anonymous/e/module/eMain;Lcom/anonymous/e/ConfigUtils;)V com/anonymous/e/ICommand
+Rename method net/minecraft/command/ICommand/getCommandName ()Ljava/lang/String;[597,611]::getCommandName->func_71517_b
+Rename method net/minecraft/command/ICommand/getCommandUsage (Lnet/minecraft/command/ICommandSender;)Ljava/lang/String;[674,689]::getCommandUsage->func_71518_a
+Rename class net/minecraft/command/ICommandSender[687,701]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommand/getCommandAliases ()Ljava/util/List;[802,819]::getCommandAliases->func_71514_a
 [method, java/util/Collections/singletonList, (Ljava/lang/Object;)Ljava/util/List;]
-Rename method net/minecraft/command/ICommand/canCommandSenderUseCommand (Lnet/minecraft/command/ICommandSender;)Z[904,930]::canCommandSenderUseCommand->func_71519_b
-Rename class net/minecraft/command/ICommandSender[917,931]::ICommandSender->ICommandSender
-Rename method net/minecraft/command/ICommand/processCommand (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[1000,1014]::processCommand->func_71515_b
-Rename class net/minecraft/command/ICommandSender[1013,1027]::ICommandSender->ICommandSender
-Rename class net/minecraft/command/CommandException[1058,1074]::CommandException->CommandException
+Rename method net/minecraft/command/ICommand/canCommandSenderUseCommand (Lnet/minecraft/command/ICommandSender;)Z[907,933]::canCommandSenderUseCommand->func_71519_b
+Rename class net/minecraft/command/ICommandSender[920,934]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommand/processCommand (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V[1003,1017]::processCommand->func_71515_b
+Rename class net/minecraft/command/ICommandSender[1016,1030]::ICommandSender->ICommandSender
+Rename class net/minecraft/command/CommandException[1061,1077]::CommandException->CommandException
 [method, java/io/PrintStream/println, (Ljava/lang/String;)V]
 [method, java/io/PrintStream/println, (Ljava/lang/String;)V]
 [method, com/anonymous/e/ICommand/printStatus, (Lnet/minecraft/command/ICommandSender;)V]
 [method, java/lang/String/toLowerCase, ()Ljava/lang/String;]
-[method, com/anonymous/e/module/eMod/isEnabled, ()Z]
-[method, com/anonymous/e/module/eMod/disable, ()V]
+[method, com/anonymous/e/module/eMain/isEnabled, ()Z]
+[method, com/anonymous/e/module/eMain/disable, ()V]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
-[method, com/anonymous/e/module/eMod/enable, ()V]
+[method, com/anonymous/e/module/eMain/enable, ()V]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
-[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMod;)V]
+[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMain;)V]
 [method, com/anonymous/e/ICommand/handleSet, (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V]
-[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMod;)V]
+[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMain;)V]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/ICommand/sendHelp, (Lnet/minecraft/command/ICommandSender;)V]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/ICommand/handleSet, (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;)V]
-Rename class net/minecraft/command/ICommandSender[2140,2154]::ICommandSender->ICommandSender
+Rename class net/minecraft/command/ICommandSender[2151,2165]::ICommandSender->ICommandSender
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, java/lang/String/toLowerCase, ()Ljava/lang/String;]
 [method, java/lang/String/toLowerCase, ()Ljava/lang/String;]
@@ -33550,7 +33550,7 @@ Rename class net/minecraft/command/ICommandSender[2140,2154]::ICommandSender->IC
 [method, com/anonymous/e/module/setting/impl/SliderSetting/setValue, (D)D]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getInput, ()D]
-[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMod;)V]
+[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMain;)V]
 [method, com/anonymous/e/ICommand/parseDouble, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getMin, ()D]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getMax, ()D]
@@ -33558,22 +33558,22 @@ Rename class net/minecraft/command/ICommandSender[2140,2154]::ICommandSender->IC
 [method, com/anonymous/e/module/setting/impl/SliderSetting/setValue, (D)D]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getInput, ()D]
-[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMod;)V]
+[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMain;)V]
 [method, com/anonymous/e/ICommand/parseModeIndex, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/setValue, (D)D]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getOptions, ()[Ljava/lang/String;]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
-[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMod;)V]
+[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMain;)V]
 [method, com/anonymous/e/ICommand/parseBool, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)Z]
 [method, com/anonymous/e/module/setting/impl/ButtonSetting/enable, ()V]
 [method, com/anonymous/e/module/setting/impl/ButtonSetting/disable, ()V]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/module/setting/impl/ButtonSetting/isToggled, ()Z]
-[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMod;)V]
+[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMain;)V]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/ICommand/printStatus, (Lnet/minecraft/command/ICommandSender;)V]
-Rename class net/minecraft/command/ICommandSender[4110,4124]::ICommandSender->ICommandSender
-[method, com/anonymous/e/module/eMod/isEnabled, ()Z]
+Rename class net/minecraft/command/ICommandSender[4121,4135]::ICommandSender->ICommandSender
+[method, com/anonymous/e/module/eMain/isEnabled, ()Z]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getOptions, ()[Ljava/lang/String;]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getInput, ()D]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
@@ -33586,7 +33586,7 @@ Rename class net/minecraft/command/ICommandSender[4110,4124]::ICommandSender->IC
 [method, com/anonymous/e/module/setting/impl/ButtonSetting/isToggled, ()Z]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/ICommand/sendHelp, (Lnet/minecraft/command/ICommandSender;)V]
-Rename class net/minecraft/command/ICommandSender[4746,4760]::ICommandSender->ICommandSender
+Rename class net/minecraft/command/ICommandSender[4761,4775]::ICommandSender->ICommandSender
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
@@ -33595,34 +33595,34 @@ Rename class net/minecraft/command/ICommandSender[4746,4760]::ICommandSender->IC
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
-Rename class net/minecraft/command/ICommandSender[5309,5323]::ICommandSender->ICommandSender
-Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[5361,5375]::addChatMessage->func_145747_a
-Rename class net/minecraft/util/ChatComponentText[5379,5396]::ChatComponentText->ChatComponentText
+Rename class net/minecraft/command/ICommandSender[5325,5339]::ICommandSender->ICommandSender
+Rename method net/minecraft/command/ICommandSender/addChatMessage (Lnet/minecraft/util/IChatComponent;)V[5377,5391]::addChatMessage->func_145747_a
+Rename class net/minecraft/util/ChatComponentText[5395,5412]::ChatComponentText->ChatComponentText
 [method, com/anonymous/e/ICommand/parseDouble, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;DD)D]
-Rename class net/minecraft/command/ICommandSender[5451,5465]::ICommandSender->ICommandSender
+Rename class net/minecraft/command/ICommandSender[5467,5481]::ICommandSender->ICommandSender
 [method, java/lang/Double/parseDouble, (Ljava/lang/String;)D]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/ICommand/parseModeIndex, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)I]
-Rename class net/minecraft/command/ICommandSender[5931,5945]::ICommandSender->ICommandSender
+Rename class net/minecraft/command/ICommandSender[5947,5961]::ICommandSender->ICommandSender
 [method, com/anonymous/e/ICommand/send, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)V]
 [method, com/anonymous/e/ICommand/parseBool, (Lnet/minecraft/command/ICommandSender;Ljava/lang/String;)Z]
-Rename class net/minecraft/command/ICommandSender[6300,6314]::ICommandSender->ICommandSender
+Rename class net/minecraft/command/ICommandSender[6316,6330]::ICommandSender->ICommandSender
 [method, java/lang/String/equals, (Ljava/lang/Object;)Z]
 [method, java/lang/String/equals, (Ljava/lang/Object;)Z]
 [method, java/lang/String/equals, (Ljava/lang/Object;)Z]
 [method, java/lang/String/equals, (Ljava/lang/Object;)Z]
-Rename method net/minecraft/command/ICommand/addTabCompletionOptions (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;[6467,6490]::addTabCompletionOptions->func_180525_a
-Rename class net/minecraft/command/ICommandSender[6481,6495]::ICommandSender->ICommandSender
-Rename class net/minecraft/util/BlockPos[6519,6546]::net.minecraft.util.BlockPos->net.minecraft.util.BlockPos
+Rename method net/minecraft/command/ICommand/addTabCompletionOptions (Lnet/minecraft/command/ICommandSender;[Ljava/lang/String;Lnet/minecraft/util/BlockPos;)Ljava/util/List;[6483,6506]::addTabCompletionOptions->func_180525_a
+Rename class net/minecraft/command/ICommandSender[6497,6511]::ICommandSender->ICommandSender
+Rename class net/minecraft/util/BlockPos[6535,6562]::net.minecraft.util.BlockPos->net.minecraft.util.BlockPos
 New Key: class net
-Rename method net/minecraft/command/CommandBase/getListOfStringsMatchingLastWord ([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;[6605,6637]::getListOfStringsMatchingLastWord->func_71530_a
+Rename method net/minecraft/command/CommandBase/getListOfStringsMatchingLastWord ([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;[6621,6653]::getListOfStringsMatchingLastWord->func_71530_a
 [method, java/lang/String/equalsIgnoreCase, (Ljava/lang/String;)Z]
-Rename method net/minecraft/command/CommandBase/getListOfStringsMatchingLastWord ([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;[6754,6786]::getListOfStringsMatchingLastWord->func_71530_a
+Rename method net/minecraft/command/CommandBase/getListOfStringsMatchingLastWord ([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;[6770,6802]::getListOfStringsMatchingLastWord->func_71530_a
 [method, java/lang/String/equalsIgnoreCase, (Ljava/lang/String;)Z]
 [method, java/lang/String/toLowerCase, ()Ljava/lang/String;]
-Rename method net/minecraft/command/CommandBase/getListOfStringsMatchingLastWord ([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;[6995,7027]::getListOfStringsMatchingLastWord->func_71530_a
-Rename method net/minecraft/command/CommandBase/getListOfStringsMatchingLastWord ([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;[7097,7129]::getListOfStringsMatchingLastWord->func_71530_a
+Rename method net/minecraft/command/CommandBase/getListOfStringsMatchingLastWord ([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;[7011,7043]::getListOfStringsMatchingLastWord->func_71530_a
+Rename method net/minecraft/command/CommandBase/getListOfStringsMatchingLastWord ([Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List;[7113,7145]::getListOfStringsMatchingLastWord->func_71530_a
 [method, java/util/Collections/emptyList, ()Ljava/util/List;]
 Import: net.minecraft.command.CommandBase
 Import: net.minecraft.command.CommandException
@@ -33662,25 +33662,9 @@ Start Processing: com\anonymous\e\agent\AgentBootstrap.java
 [method, com/anonymous/e/agent/AgentBootstrap/AgentBootstrap, ()V]
 FOUND CONSTR method com/anonymous/e/agent/AgentBootstrap/AgentBootstrap ()V com/anonymous/e/agent/AgentBootstrap
 [method, com/anonymous/e/agent/AgentBootstrap/install, ()V]
-[method, com/anonymous/e/e/isInitialized, ()Z]
-[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
-[method, java/lang/Runnable/run, ()V]
-[method, com/anonymous/e/e/initInjected, ()V]
+[method, com/anonymous/e/e/bootstrap, ()V]
 [method, java/io/PrintStream/println, (Ljava/lang/String;)V]
 [method, java/lang/Throwable/printStackTrace, ()V]
-Rename class net/minecraft/client/Minecraft[940,949]::Minecraft->Minecraft
-Rename class net/minecraft/client/Minecraft[955,964]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[965,977]::getMinecraft->func_71410_x
-[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
-[method, java/lang/Runnable/run, ()V]
-Rename method net/minecraft/util/IThreadListener/isCallingFromMinecraftThread ()Z[1205,1233]::isCallingFromMinecraftThread->func_152345_ab
-[method, java/lang/Runnable/run, ()V]
-Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[1300,1316]::addScheduledTask->func_152344_a
-[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
-[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
-[method, java/lang/Throwable/printStackTrace, ()V]
-[method, java/lang/Runnable/run, ()V]
-Import: net.minecraft.client.Minecraft
 Adding 0 imports
 End  Processing: com\anonymous\e\agent\AgentBootstrap.java
 
@@ -33753,91 +33737,119 @@ End  Processing: com\anonymous\e\agent\eAgent.java
 Start Processing: com\anonymous\e\e.java
 [method, com/anonymous/e/e/e, ()V]
 FOUND CONSTR method com/anonymous/e/e/e ()V com/anonymous/e/e
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
+[method, com/anonymous/e/e/bootstrap, ()V]
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
 [method, com/anonymous/e/e/init, (Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V]
 No rename for class net/minecraftforge/fml/common/event/FMLInitializationEvent
+[method, com/anonymous/e/e/bootstrap, ()V]
+[method, com/anonymous/e/e/bootstrap, ()V]
+[method, java/io/PrintStream/println, (Ljava/lang/Object;)V]
+[method, java/lang/Class/getClassLoader, ()Ljava/lang/ClassLoader;]
+[method, java/io/PrintStream/println, (Ljava/lang/Object;)V]
+[method, java/lang/Thread/currentThread, ()Ljava/lang/Thread;]
+[method, java/lang/Thread/getContextClassLoader, ()Ljava/lang/ClassLoader;]
+[method, java/lang/Runnable/run, ()V]
 [method, com/anonymous/e/e/initInjected, ()V]
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
+[method, java/lang/Throwable/printStackTrace, ()V]
+Rename class net/minecraft/client/Minecraft[1925,1934]::Minecraft->Minecraft
+Rename class net/minecraft/client/Minecraft[1940,1949]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[1950,1962]::getMinecraft->func_71410_x
+[method, java/lang/Runnable/run, ()V]
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
+Rename method net/minecraft/util/IThreadListener/isCallingFromMinecraftThread ()Z[2181,2209]::isCallingFromMinecraftThread->func_152345_ab
+[method, java/lang/Runnable/run, ()V]
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
+Rename method net/minecraft/util/IThreadListener/addScheduledTask (Ljava/lang/Runnable;)Lcom/google/common/util/concurrent/ListenableFuture;[2365,2381]::addScheduledTask->func_152344_a
+[method, java/io/PrintStream/println, (Ljava/lang/String;)V]
+[method, java/lang/Runnable/run, ()V]
 [method, com/anonymous/e/e/initInjected, ()V]
-[method, com/anonymous/e/ConfigUtils/load, (Lcom/anonymous/e/module/eMod;)V]
-[method, com/anonymous/e/module/eMod/isEnabled, ()Z]
-[method, com/anonymous/e/module/eMod/enable, ()V]
-[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMod;)V]
+[method, java/util/concurrent/atomic/AtomicBoolean/compareAndSet, (ZZ)Z]
+[method, com/anonymous/e/ConfigUtils/load, (Lcom/anonymous/e/module/eMain;)V]
+[method, com/anonymous/e/module/eMain/isEnabled, ()Z]
+[method, com/anonymous/e/module/eMain/enable, ()V]
+[method, com/anonymous/e/ConfigUtils/save, (Lcom/anonymous/e/module/eMain;)V]
 No rename for class net/minecraftforge/client/ClientCommandHandler
 No rename for field net/minecraftforge/client/ClientCommandHandler/instance
-Rename method net/minecraft/command/CommandHandler/registerCommand (Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;[1053,1068]::registerCommand->func_71560_a
+Rename method net/minecraft/command/CommandHandler/registerCommand (Lnet/minecraft/command/ICommand;)Lnet/minecraft/command/ICommand;[2940,2955]::registerCommand->func_71560_a
 [method, java/io/PrintStream/println, (Ljava/lang/String;)V]
 [method, com/anonymous/e/e/isInitialized, ()Z]
+[method, java/util/concurrent/atomic/AtomicBoolean/get, ()Z]
+Import: net.minecraft.client.Minecraft
 Adding 0 imports
 End  Processing: com\anonymous\e\e.java
 
-Start Processing: com\anonymous\e\module\eMod.java
-Rename class net/minecraft/client/Minecraft[586,595]::Minecraft->Minecraft
-Rename class net/minecraft/client/Minecraft[601,610]::Minecraft->Minecraft
-Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[611,623]::getMinecraft->func_71410_x
-[method, com/anonymous/e/module/eMod/eMod, ()V]
-FOUND CONSTR method com/anonymous/e/module/eMod/eMod ()V com/anonymous/e/module/eMod
-[method, com/anonymous/e/module/eMod/enable, ()V]
+Start Processing: com\anonymous\e\module\eMain.java
+Rename class net/minecraft/client/Minecraft[587,596]::Minecraft->Minecraft
+Rename class net/minecraft/client/Minecraft[602,611]::Minecraft->Minecraft
+Rename method net/minecraft/client/Minecraft/getMinecraft ()Lnet/minecraft/client/Minecraft;[612,624]::getMinecraft->func_71410_x
+[method, com/anonymous/e/module/eMain/eMain, ()V]
+FOUND CONSTR method com/anonymous/e/module/eMain/eMain ()V com/anonymous/e/module/eMain
+[method, com/anonymous/e/module/eMain/enable, ()V]
 No rename for class net/minecraftforge/common/MinecraftForge
 No rename for field net/minecraftforge/common/MinecraftForge/EVENT_BUS
 [method, net/minecraftforge/fml/common/eventhandler/EventBus/register, (Ljava/lang/Object;)V]
 No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/register (Ljava/lang/Object;)V
-[method, com/anonymous/e/module/eMod/disable, ()V]
+[method, com/anonymous/e/module/eMain/disable, ()V]
 No rename for class net/minecraftforge/common/MinecraftForge
 No rename for field net/minecraftforge/common/MinecraftForge/EVENT_BUS
 [method, net/minecraftforge/fml/common/eventhandler/EventBus/unregister, (Ljava/lang/Object;)V]
 No rename for method net/minecraftforge/fml/common/eventhandler/EventBus/unregister (Ljava/lang/Object;)V
-[method, com/anonymous/e/module/eMod/isEnabled, ()Z]
-[method, com/anonymous/e/module/eMod/onPlayerTick, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V]
+[method, com/anonymous/e/module/eMain/isEnabled, ()Z]
+[method, com/anonymous/e/module/eMain/onPlayerTick, (Lnet/minecraftforge/fml/common/gameevent/TickEvent$PlayerTickEvent;)V]
 No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/PlayerTickEvent
 No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/phase
 No rename for class net/minecraftforge/fml/common/gameevent/TickEvent/Phase
 No rename for field net/minecraftforge/fml/common/gameevent/TickEvent/Phase/END
-Rename field net/minecraft/client/Minecraft/inGameHasFocus[1669,1683]::inGameHasFocus->field_71415_G
+Rename field net/minecraft/client/Minecraft/inGameHasFocus[1671,1685]::inGameHasFocus->field_71415_G
 [method, com/anonymous/e/BlockUtils/nullCheck, ()Z]
 [method, com/anonymous/e/module/setting/impl/ButtonSetting/isToggled, ()Z]
-Rename field net/minecraft/client/Minecraft/thePlayer[1765,1774]::thePlayer->field_71439_g
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[1779,1791]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[1794,1808]::isCreativeMode->field_75098_d
+Rename field net/minecraft/client/Minecraft/thePlayer[1767,1776]::thePlayer->field_71439_g
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[1781,1793]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[1796,1810]::isCreativeMode->field_75098_d
 [method, com/anonymous/e/PlayerControllerAccessor/of, (Lnet/minecraft/client/multiplayer/PlayerControllerMP;)Lcom/anonymous/e/PlayerControllerAccessor;]
-Rename field net/minecraft/client/Minecraft/playerController[1895,1911]::playerController->field_71442_b
+Rename field net/minecraft/client/Minecraft/playerController[1897,1913]::playerController->field_71442_b
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getInput, ()D]
 [method, com/anonymous/e/PlayerControllerAccessor/setBlockHitDelay, (I)V]
 [method, com/anonymous/e/PlayerControllerAccessor/getBlockHitDelay, ()I]
 [method, com/anonymous/e/PlayerControllerAccessor/setBlockHitDelay, (I)V]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getInput, ()D]
-Rename field net/minecraft/client/Minecraft/thePlayer[2321,2330]::thePlayer->field_71439_g
-Rename field net/minecraft/entity/player/EntityPlayer/capabilities[2335,2347]::capabilities->field_71075_bZ
-Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[2350,2364]::isCreativeMode->field_75098_d
+Rename field net/minecraft/client/Minecraft/thePlayer[2323,2332]::thePlayer->field_71439_g
+Rename field net/minecraft/entity/player/EntityPlayer/capabilities[2337,2349]::capabilities->field_71075_bZ
+Rename field net/minecraft/entity/player/PlayerCapabilities/isCreativeMode[2352,2366]::isCreativeMode->field_75098_d
 [method, org/lwjgl/input/Mouse/isButtonDown, (I)Z]
 [method, com/anonymous/e/PlayerControllerAccessor/getCurBlockDamageMP, ()F]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getInput, ()D]
 [method, com/anonymous/e/PlayerControllerAccessor/setCurBlockDamageMP, (F)V]
 [method, com/anonymous/e/PlayerControllerAccessor/setCurBlockDamageMP, (F)V]
-Rename field net/minecraft/client/Minecraft/objectMouseOver[3390,3405]::objectMouseOver->field_71476_x
-Rename class net/minecraft/block/Block[3488,3513]::net.minecraft.block.Block->net.minecraft.block.Block
+Rename field net/minecraft/client/Minecraft/objectMouseOver[3392,3407]::objectMouseOver->field_71476_x
+Rename class net/minecraft/block/Block[3490,3515]::net.minecraft.block.Block->net.minecraft.block.Block
 New Key: class net
-Rename field net/minecraft/client/Minecraft/theWorld[3568,3576]::theWorld->field_71441_e
-Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3631,3644]::getBlockState->func_180495_p
-Rename field net/minecraft/client/Minecraft/objectMouseOver[3648,3663]::objectMouseOver->field_71476_x
-Rename method net/minecraft/util/MovingObjectPosition/getBlockPos ()Lnet/minecraft/util/BlockPos;[3662,3673]::getBlockPos->func_178782_a
-Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3728,3736]::getBlock->func_177230_c
-Rename class net/minecraft/item/ItemStack[3777,3805]::net.minecraft.item.ItemStack->net.minecraft.item.ItemStack
+Rename field net/minecraft/client/Minecraft/theWorld[3570,3578]::theWorld->field_71441_e
+Rename method net/minecraft/world/IBlockAccess/getBlockState (Lnet/minecraft/util/BlockPos;)Lnet/minecraft/block/state/IBlockState;[3633,3646]::getBlockState->func_180495_p
+Rename field net/minecraft/client/Minecraft/objectMouseOver[3650,3665]::objectMouseOver->field_71476_x
+Rename method net/minecraft/util/MovingObjectPosition/getBlockPos ()Lnet/minecraft/util/BlockPos;[3664,3675]::getBlockPos->func_178782_a
+Rename method net/minecraft/block/state/IBlockState/getBlock ()Lnet/minecraft/block/Block;[3730,3738]::getBlock->func_177230_c
+Rename class net/minecraft/item/ItemStack[3779,3807]::net.minecraft.item.ItemStack->net.minecraft.item.ItemStack
 New Key: class net
-Rename field net/minecraft/client/Minecraft/thePlayer[3860,3869]::thePlayer->field_71439_g
-Rename field net/minecraft/entity/player/EntityPlayer/inventory[3874,3883]::inventory->field_71071_by
-Rename method net/minecraft/inventory/IInventory/getStackInSlot (I)Lnet/minecraft/item/ItemStack;[3938,3952]::getStackInSlot->func_70301_a
-Rename field net/minecraft/client/Minecraft/thePlayer[3954,3963]::thePlayer->field_71439_g
-Rename field net/minecraft/entity/player/EntityPlayer/inventory[3968,3977]::inventory->field_71071_by
-Rename field net/minecraft/entity/player/InventoryPlayer/currentItem[3983,3994]::currentItem->field_70461_c
+Rename field net/minecraft/client/Minecraft/thePlayer[3862,3871]::thePlayer->field_71439_g
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[3876,3885]::inventory->field_71071_by
+Rename method net/minecraft/inventory/IInventory/getStackInSlot (I)Lnet/minecraft/item/ItemStack;[3940,3954]::getStackInSlot->func_70301_a
+Rename field net/minecraft/client/Minecraft/thePlayer[3956,3965]::thePlayer->field_71439_g
+Rename field net/minecraft/entity/player/EntityPlayer/inventory[3970,3979]::inventory->field_71071_by
+Rename field net/minecraft/entity/player/InventoryPlayer/currentItem[3985,3996]::currentItem->field_70461_c
 [method, com/anonymous/e/BlockUtils/getBlockHardness, (Lnet/minecraft/block/Block;Lnet/minecraft/item/ItemStack;ZZ)F]
 [method, com/anonymous/e/PlayerControllerAccessor/setCurBlockDamageMP, (F)V]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getInput, ()D]
-[method, com/anonymous/e/module/eMod/getInfo, ()Ljava/lang/String;]
+[method, com/anonymous/e/module/eMain/getInfo, ()Ljava/lang/String;]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getInput, ()D]
 [method, java/lang/String/valueOf, (D)Ljava/lang/String;]
 [method, com/anonymous/e/module/setting/impl/SliderSetting/getSuffix, ()Ljava/lang/String;]
 Import: net.minecraft.client.Minecraft
 Adding 0 imports
-End  Processing: com\anonymous\e\module\eMod.java
+End  Processing: com\anonymous\e\module\eMain.java
 
 Start Processing: com\anonymous\e\module\setting\Setting.java
 [method, com/anonymous/e/module/setting/Setting/Setting, (Ljava/lang/String;)V]

@@ -1,6 +1,6 @@
 package com.anonymous.e;
 
-import com.anonymous.e.module.eMod;
+import com.anonymous.e.module.eMain;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
@@ -23,7 +23,7 @@ public class ConfigUtils {
         this.configFile = new File(configDir, FILE_NAME);
     }
 
-    public void load(eMod fm) {
+    public void load(eMain fm) {
         if (!configFile.exists()) {
             save(fm);
             return;
@@ -42,7 +42,7 @@ public class ConfigUtils {
         }
     }
 
-    public void save(eMod fm) {
+    public void save(eMain fm) {
         JsonObject obj = new JsonObject();
         obj.addProperty("enabled",         fm.isEnabled());
         obj.addProperty("delay",           fm.delay.getInput());
@@ -57,7 +57,7 @@ public class ConfigUtils {
         }
     }
 
-    private void setEnabled(eMod fm, boolean enabled) {
+    private void setEnabled(eMain fm, boolean enabled) {
         if (enabled && !fm.isEnabled())  fm.enable();
         if (!enabled && fm.isEnabled())  fm.disable();
     }
