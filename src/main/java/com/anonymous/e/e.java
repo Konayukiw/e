@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 @Mod(
         modid = "Xk7mQ2pR",
         name = "e",
-        version = "2.1",
+        version = "2.2",
         acceptedMinecraftVersions = "[1.8.9]"
 )
 public class e {
